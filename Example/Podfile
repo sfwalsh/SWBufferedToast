@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SWBufferedToast', :exclusive => true do
+  pod "SWBufferedToast", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "SWBufferedToast", :path => "../"
+
+  
+end
