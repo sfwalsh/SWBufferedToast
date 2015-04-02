@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWBufferedToast/SWBufferedToast.h"
 
-@interface SWViewController : UIViewController
+@interface SWViewController : UIViewController <SWBufferedToastDelegate>
 
 @end

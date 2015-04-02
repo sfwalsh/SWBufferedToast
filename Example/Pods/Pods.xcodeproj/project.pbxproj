@@ -1,1657 +1,1502 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0B0E4F500A0A1761DCE8421A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BA55DA6EE65B168958AB7A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1775F4A14A2B2771EE99E5B1</string>
-				<string>B3790779686D540598EF2EE1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13887CFAE79F20FDBB12D0B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>141E25EF60BD62664E4DA9AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C94A14B8F1CBC1A4194C5535</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1775F4A14A2B2771EE99E5B1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7FC2E71BC9F0AD6E5F65D803</string>
-				<string>449B01782BB8F2CF66E93D46</string>
-				<string>638F08752F1F69F1A3A0E4F3</string>
-				<string>CCB29EB144496529B49582A8</string>
-				<string>F936A3CE67ABB2686671B7FD</string>
-				<string>5C9FB8BF66589B44FE3D1436</string>
-				<string>BAA2767601A37EC4217A85CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SWBufferedToast</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-SWBufferedToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>192B74F26F90353C65CC6799</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C0F7B19832C17056321ACBF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A90C6C39B1435FD0F9B0D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1D8D1CF210DE80294D129347</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5C9FB8BF66589B44FE3D1436</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>217CC420996BCB9E421DB1B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>218B70D6AEE679038AF8ED62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E84131B5484D0DB52540E0B3</string>
-				<string>D52AE791CC1D5040BCF79983</string>
-				<string>ACFB4F3C10CC01D5C88F0EA9</string>
-				<string>EEC27F832C8D3F4987443F57</string>
-				<string>46DDC6C91DE90534565FA216</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>254099EBBE35B9CE419741D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C7A47C0DE84ABFE044B208C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A90C6C39B1435FD0F9B0D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>638F08752F1F69F1A3A0E4F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>292C085D728E19B5372E0EA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D7E6FA0196CCC6E21F3A277</string>
-				<string>80AF5A3D12EBEB7E326E27E2</string>
-				<string>192B74F26F90353C65CC6799</string>
-				<string>DE0752CFEE79975709156B02</string>
-				<string>9766C587E4444DB4FD553688</string>
-				<string>5E539539DDF345521DF2829F</string>
-				<string>C94A14B8F1CBC1A4194C5535</string>
-				<string>9824E3A4968C2514C5DC30B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-SWBufferedToast-SWBufferedToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2989952416FB2E763DB5AD96</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80AF5A3D12EBEB7E326E27E2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SWBufferedToast-SWBufferedToast/Pods-SWBufferedToast-SWBufferedToast-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2B4C8CB6C4A2C39F0889C7D8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FECCADC07DB4601638D1EC56</string>
-			<key>buildPhases</key>
-			<array>
-				<string>94A0B4B0F70F8C28B7EBA37D</string>
-				<string>254099EBBE35B9CE419741D8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5CADB1855BA1667FF119C4C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>EEC27F832C8D3F4987443F57</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>2C551999AF2BAD17FD2214D2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9C96313E8C4393BC5A3BAE87</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6EBB358AA8DB3D0A9C27C404</string>
-			<key>remoteInfo</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast</string>
-		</dict>
-		<key>2D8676C9D8C6F32E33D06476</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>320E3836BCC95850891DA003</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E08DCF0464397BD134658A47</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>323E712BD1F9184DA6BB93C9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>367EF14B64B2530E653258A0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>141E25EF60BD62664E4DA9AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>449B01782BB8F2CF66E93D46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46DDC6C91DE90534565FA216</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-SWBufferedToast.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>487D6959163E3AA67CF09145</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AACC991CAE051AADA7D346FA</string>
-				<string>DC477F054C4026BC03DC7B5A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>49241796FEF361CEABC5EC79</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>54CDA1B32715CBC6DA6F27E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4D7E6FA0196CCC6E21F3A277</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50C199DB3FB7F292AF0305DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B80B1BF71740BD4928C662</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>54CDA1B32715CBC6DA6F27E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B80B1BF71740BD4928C662</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>552386CCFC40D3F0404F2FCB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5739EB3FE17D5E197751C2F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD62C000619FB62FBD3FD093</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A7946DA7FBC84252118A0F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61B762ED3FE196DAA8F6DF74</string>
-			<key>targetProxy</key>
-			<string>9FED13C69A96AD2B10B47D1C</string>
-		</dict>
-		<key>5C9FB8BF66589B44FE3D1436</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CADB1855BA1667FF119C4C7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>C4E0B1F1C42125D6B27EBA2B</string>
-			<key>targetProxy</key>
-			<string>8ECB401C18DDDCF5BB982E43</string>
-		</dict>
-		<key>5E5066F93BC90FE19A33DEC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B0E4F500A0A1761DCE8421A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E539539DDF345521DF2829F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-SWBufferedToast-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60591A781D11BF7BAC85EA53</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>50C199DB3FB7F292AF0305DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B762ED3FE196DAA8F6DF74</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AA310873D22E1291DF3F69E8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BF95A4B95AA59A7EB599ECF1</string>
-				<string>8BBE94AC5129DDB6609F6CAB</string>
-				<string>6D4358E7A8C13B1B8B86937A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SWBufferedToast</string>
-			<key>productName</key>
-			<string>SWBufferedToast</string>
-			<key>productReference</key>
-			<string>E84131B5484D0DB52540E0B3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>629753A89B7904D899E6C7CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>638F08752F1F69F1A3A0E4F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C4859E2C3DE2879F242D689</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B80B1BF71740BD4928C662</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D4358E7A8C13B1B8B86937A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6EBB358AA8DB3D0A9C27C404</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C9A990A1CB1F79169240EBF3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CA228F86E5B4B7D65ADA4C90</string>
-				<string>49241796FEF361CEABC5EC79</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5A7946DA7FBC84252118A0F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast</string>
-			<key>productName</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast</string>
-			<key>productReference</key>
-			<string>ACFB4F3C10CC01D5C88F0EA9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>71F0A1E0325A1ADF51EC1E59</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9C96313E8C4393BC5A3BAE87</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61B762ED3FE196DAA8F6DF74</string>
-			<key>remoteInfo</key>
-			<string>SWBufferedToast</string>
-		</dict>
-		<key>72B80B1BF71740BD4928C662</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7652FE1214997CDE8B441F6E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DE6AF0E80893676E8518FDC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1D8D1CF210DE80294D129347</string>
-				<string>B2475387DA6688126BF3BBDD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7FC2E71BC9F0AD6E5F65D803</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80AF5A3D12EBEB7E326E27E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8102CEE7DFA1DC8F8F231A91</key>
-		<dict>
-			<key>fileRef</key>
-			<string>192B74F26F90353C65CC6799</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86E278ACF6E91A50666DDE27</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>552386CCFC40D3F0404F2FCB</string>
-				<string>D8C33AB4B60EF67A066D8EE6</string>
-				<string>5739EB3FE17D5E197751C2F9</string>
-				<string>218B70D6AEE679038AF8ED62</string>
-				<string>0BA55DA6EE65B168958AB7A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8777EE525A8738E039F201E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BBE94AC5129DDB6609F6CAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8ECB401C18DDDCF5BB982E43</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9C96313E8C4393BC5A3BAE87</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C4E0B1F1C42125D6B27EBA2B</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-SWBufferedToast</string>
-		</dict>
-		<key>94A0B4B0F70F8C28B7EBA37D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E5066F93BC90FE19A33DEC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9766C587E4444DB4FD553688</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-SWBufferedToast.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9824E3A4968C2514C5DC30B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-SWBufferedToast-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C96313E8C4393BC5A3BAE87</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>ECB062D55ED0EBE9289BE719</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>86E278ACF6E91A50666DDE27</string>
-			<key>productRefGroup</key>
-			<string>218B70D6AEE679038AF8ED62</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>B55D7C531B21F11414573CAA</string>
-				<string>6EBB358AA8DB3D0A9C27C404</string>
-				<string>2B4C8CB6C4A2C39F0889C7D8</string>
-				<string>C4E0B1F1C42125D6B27EBA2B</string>
-				<string>61B762ED3FE196DAA8F6DF74</string>
-			</array>
-		</dict>
-		<key>9FED13C69A96AD2B10B47D1C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9C96313E8C4393BC5A3BAE87</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61B762ED3FE196DAA8F6DF74</string>
-			<key>remoteInfo</key>
-			<string>SWBufferedToast</string>
-		</dict>
-		<key>A37E3B0A6C3E9A7A0E19D088</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A8FEE5FE272DC6564B8F7D1E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E2C5A231264B06EEC2B1C273</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AA310873D22E1291DF3F69E8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A37E3B0A6C3E9A7A0E19D088</string>
-				<string>629753A89B7904D899E6C7CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AACC991CAE051AADA7D346FA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5E539539DDF345521DF2829F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>ACFB4F3C10CC01D5C88F0EA9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-SWBufferedToast-SWBufferedToast.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B2475387DA6688126BF3BBDD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BAA2767601A37EC4217A85CA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B3790779686D540598EF2EE1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8777EE525A8738E039F201E2</string>
-				<string>217CC420996BCB9E421DB1B3</string>
-				<string>0B0E4F500A0A1761DCE8421A</string>
-				<string>13887CFAE79F20FDBB12D0B3</string>
-				<string>7652FE1214997CDE8B441F6E</string>
-				<string>E08DCF0464397BD134658A47</string>
-				<string>E2C5A231264B06EEC2B1C273</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B55D7C531B21F11414573CAA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7DE6AF0E80893676E8518FDC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1C0F7B19832C17056321ACBF</string>
-				<string>D37D3C8DCB05098D9357732E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D3A76605574B253F84F0FEFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SWBufferedToast</string>
-			<key>productName</key>
-			<string>Pods-SWBufferedToast</string>
-			<key>productReference</key>
-			<string>D52AE791CC1D5040BCF79983</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BA89136F48D0168CDDE645BD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80AF5A3D12EBEB7E326E27E2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SWBufferedToast-SWBufferedToast/Pods-SWBufferedToast-SWBufferedToast-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BAA2767601A37EC4217A85CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF95A4B95AA59A7EB599ECF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4E0B1F1C42125D6B27EBA2B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>487D6959163E3AA67CF09145</string>
-			<key>buildPhases</key>
-			<array>
-				<string>367EF14B64B2530E653258A0</string>
-				<string>60591A781D11BF7BAC85EA53</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C8759C5164AC426E5D0DEA34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-SWBufferedToast</string>
-			<key>productName</key>
-			<string>Pods-Tests-SWBufferedToast</string>
-			<key>productReference</key>
-			<string>46DDC6C91DE90534565FA216</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C7A47C0DE84ABFE044B208C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B80B1BF71740BD4928C662</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C8759C5164AC426E5D0DEA34</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61B762ED3FE196DAA8F6DF74</string>
-			<key>targetProxy</key>
-			<string>71F0A1E0325A1ADF51EC1E59</string>
-		</dict>
-		<key>C94A14B8F1CBC1A4194C5535</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-SWBufferedToast-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C9A990A1CB1F79169240EBF3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2989952416FB2E763DB5AD96</string>
-				<string>BA89136F48D0168CDDE645BD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>CA228F86E5B4B7D65ADA4C90</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8102CEE7DFA1DC8F8F231A91</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CCB29EB144496529B49582A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D37D3C8DCB05098D9357732E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6C4859E2C3DE2879F242D689</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3A76605574B253F84F0FEFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>6EBB358AA8DB3D0A9C27C404</string>
-			<key>targetProxy</key>
-			<string>2C551999AF2BAD17FD2214D2</string>
-		</dict>
-		<key>D52AE791CC1D5040BCF79983</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-SWBufferedToast.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D8C33AB4B60EF67A066D8EE6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA34B626211DE8273540E72F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC477F054C4026BC03DC7B5A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5E539539DDF345521DF2829F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DE0752CFEE79975709156B02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-SWBufferedToast-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E08DCF0464397BD134658A47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2C5A231264B06EEC2B1C273</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E84131B5484D0DB52540E0B3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SWBufferedToast.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EA34B626211DE8273540E72F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>292C085D728E19B5372E0EA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SWBufferedToast</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECB062D55ED0EBE9289BE719</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2D8676C9D8C6F32E33D06476</string>
-				<string>323E712BD1F9184DA6BB93C9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EEC27F832C8D3F4987443F57</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F936A3CE67ABB2686671B7FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SWBufferedToast-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD62C000619FB62FBD3FD093</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>72B80B1BF71740BD4928C662</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FECCADC07DB4601638D1EC56</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>320E3836BCC95850891DA003</string>
-				<string>A8FEE5FE272DC6564B8F7D1E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>9C96313E8C4393BC5A3BAE87</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0109D866195B9BCCFE0D069C /* Bufferlines0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994095E8E6BCA1FB0A8BA6F /* Bufferlines0078.png */; };
+		045ECD66F4F5B989353D3AF7 /* Bufferlines0100.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB5C39BF8D6B047B0937F /* Bufferlines0100.png */; };
+		05833A76E9797B2D590DEE05 /* Bufferlines0031.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE23A4E4CA2ACBDC00C979A /* Bufferlines0031.png */; };
+		05E3A978DD65186B56628881 /* Bufferlines0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F74587BE20B17574E6789AF /* Bufferlines0012.png */; };
+		06E69C8D922289ED676CB083 /* Bufferlines0064.png in Resources */ = {isa = PBXBuildFile; fileRef = 3560DC8956F51BCFDE241F1E /* Bufferlines0064.png */; };
+		0963DC6A30C5D581AA6DCAAC /* Bufferlines0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE4AA6BAD2A7795B6BD0612 /* Bufferlines0015.png */; };
+		0A8186FF6A8B3BB8660F59A0 /* Bufferlines0079.png in Resources */ = {isa = PBXBuildFile; fileRef = 675F6E418210F90790990319 /* Bufferlines0079.png */; };
+		0AEE51428AB1006F23538C0D /* Bufferlines0083.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B47A08A7DD89510A6364114 /* Bufferlines0083.png */; };
+		0B6683C92DB74FA96FF0C7D8 /* Bufferlines0017.png in Resources */ = {isa = PBXBuildFile; fileRef = BC24E3CFFB2E2D6D4E48E1D1 /* Bufferlines0017.png */; };
+		0BC50D859001E9C1175B4038 /* Bufferlines0102.png in Resources */ = {isa = PBXBuildFile; fileRef = 5148DCB657054FF1819E97FC /* Bufferlines0102.png */; };
+		0CB524A7E276A290310F0608 /* Bufferlines0080.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF566E8C205BE367322AA50 /* Bufferlines0080.png */; };
+		0E9C6CA0E2CE2A3E568A2DDC /* Bufferlines0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D210865B716341730CD6 /* Bufferlines0022.png */; };
+		0EFDB3AF55B5257CEBEB370D /* Bufferlines0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DAC82BCD37CBFBE826D7C2 /* Bufferlines0027.png */; };
+		125750AA1905FB39713DD3C1 /* Bufferlines0091.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF609EDCD0523C8BEAE964A /* Bufferlines0091.png */; };
+		12D908C5F2E0186384A0B9E7 /* Bufferlines0026.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB5FDDD3291E22FB1C3762D /* Bufferlines0026.png */; };
+		12EF61E32C30767AD3EB9F3F /* SWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC4FADEBF29AAC680622DA /* SWToast.m */; };
+		150FF79E17C89EEDE3830F47 /* Bufferlines0068.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D8D64737560D4DAAA8A95C /* Bufferlines0068.png */; };
+		16AEF5344DA7819BAB762321 /* Bufferlines0031.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE23A4E4CA2ACBDC00C979A /* Bufferlines0031.png */; };
+		16B76FC64CEEA00E02AD84A7 /* Bufferlines0021.png in Resources */ = {isa = PBXBuildFile; fileRef = B696BA82190840B7813A93F7 /* Bufferlines0021.png */; };
+		16CC55FF1A2E102D65461BFA /* Bufferlines0046.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE4F5A4AB560BF9EB33BF89 /* Bufferlines0046.png */; };
+		1800FA3A352646E37E1D832E /* Bufferlines0025.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A8B495A19661DC1F032830 /* Bufferlines0025.png */; };
+		19387EA290A0B3A639C077DA /* Bufferlines0025.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A8B495A19661DC1F032830 /* Bufferlines0025.png */; };
+		194F457C01A08D47A75388B2 /* Bufferlines0008.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB48B06C308958A35023B5B /* Bufferlines0008.png */; };
+		19701AAC4B1B7A720A662C0D /* Bufferlines0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0645C10E3AD27B633C4A3DB1 /* Bufferlines0048.png */; };
+		1A701C7E7C746DF6F7DBC6D8 /* Bufferlines0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D210865B716341730CD6 /* Bufferlines0022.png */; };
+		1D5585C7378CA04595B4ABB3 /* Bufferlines0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A296C57693F6448B003F0 /* Bufferlines0055.png */; };
+		1E852E0A0A059279E4CAF7FB /* Bufferlines0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 9366A71CA2850D97C878C026 /* Bufferlines0037.png */; };
+		2091BE6A8AF6B72BB94422CC /* Bufferlines0013.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD849A4FDCFE496FC58D933 /* Bufferlines0013.png */; };
+		233C749638D832D249BE25AD /* Bufferlines0085.png in Resources */ = {isa = PBXBuildFile; fileRef = 351572CCFA5F8E5DAAC9A6BF /* Bufferlines0085.png */; };
+		254E4C8B709F03390D09F021 /* Bufferlines0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 67DC3D5A7CEBA19BFCCE3A7C /* Bufferlines0029.png */; };
+		261A0B463482067562D1B91B /* Bufferlines0081.png in Resources */ = {isa = PBXBuildFile; fileRef = A6FDAFD83AC15BF8F77144EC /* Bufferlines0081.png */; };
+		26571C2980EFDF22D7BED033 /* Bufferlines0093.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E2DE21C79240C4E5E00B3D /* Bufferlines0093.png */; };
+		28BD97D08B88DCD25D1D733E /* Bufferlines0035.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DED026119A93E0C7FE05AC /* Bufferlines0035.png */; };
+		2B20116F1996DEFBFAD016CB /* Bufferlines0044.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C18320515CA8BDA60F3EC5 /* Bufferlines0044.png */; };
+		2B5FD28C5FCB188EA9B3A46B /* Bufferlines0046.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE4F5A4AB560BF9EB33BF89 /* Bufferlines0046.png */; };
+		2C22EED2CA147BC355ADDDFA /* Bufferlines0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0688C0A49DE0091A3AF34B /* Bufferlines0063.png */; };
+		2CC8BA0D271C15795921B7BA /* Bufferlines0088.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C5EB8A43D273AF2F75313C /* Bufferlines0088.png */; };
+		300C4E24C8D9CB324EC449E4 /* SWBufferedToast.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B8EBBDC684FF6E11F80DB2 /* SWBufferedToast.h */; };
+		3528C143BF9F8E898FE3341E /* Bufferlines0076.png in Resources */ = {isa = PBXBuildFile; fileRef = 512680B0F5C84CF5ABFDD7ED /* Bufferlines0076.png */; };
+		354E8BCCD30534BC1E08EAF2 /* Bufferlines0058.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B91FD229A6B6E7B06FB211 /* Bufferlines0058.png */; };
+		35F70403AECB27F8013C1B19 /* Bufferlines0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BA297DFF5DBE54238060DF /* Bufferlines0003.png */; };
+		36A318A11ECC45CDC9828244 /* Bufferlines0077.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD473A3E93DAC543DE0A8F8 /* Bufferlines0077.png */; };
+		36AF566794F6563D4218042A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E53987213B469FBA017088 /* Foundation.framework */; };
+		38E6D488A8AD3C9471BBCDD0 /* Bufferlines0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF27F36874FEF4A11A8CE9C /* Bufferlines0041.png */; };
+		3AA57900E6EFD7D57DECA1A2 /* Bufferlines0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B4CF03CE4EE29DE7C2E932 /* Bufferlines0038.png */; };
+		3AD4E6B29438FE6B98464420 /* Bufferlines0045.png in Resources */ = {isa = PBXBuildFile; fileRef = C450273DDA877E16A569EEE2 /* Bufferlines0045.png */; };
+		3B8BCB769E0ED787CC67E000 /* Bufferlines0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E40C47334819F8C0EB3F80 /* Bufferlines0020.png */; };
+		3E8A345560F627CE827B9DDC /* Bufferlines0072.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B503EBFF01D428C1AE338E /* Bufferlines0072.png */; };
+		3EF36B0D14F62BE1A9D789B7 /* Bufferlines0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EACAE442AA02F832E99EF55 /* Bufferlines0073.png */; };
+		3F505B1AAEDF6365C4421E84 /* Bufferlines0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D560C76E536F6E86731FCC /* Bufferlines0023.png */; };
+		3F5BA423F5EC205EDA0521D2 /* Bufferlines0007.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EACEB03EAABC5227ACF26C /* Bufferlines0007.png */; };
+		406FA770E2C194C79A72FFDA /* Bufferlines0079.png in Resources */ = {isa = PBXBuildFile; fileRef = 675F6E418210F90790990319 /* Bufferlines0079.png */; };
+		424BCA26CF835EA40ADFF7DF /* Bufferlines0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A296C57693F6448B003F0 /* Bufferlines0055.png */; };
+		430655ABA948AB86B9EEB743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E53987213B469FBA017088 /* Foundation.framework */; };
+		45DF97D8E5F39F89C5F8AF7A /* Bufferlines0005.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D49033F4AF8DC27B1D966D /* Bufferlines0005.png */; };
+		468F7E321961D0F54072CEA4 /* Bufferlines0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 068C6F7C90C4068CCD91322E /* Bufferlines0065.png */; };
+		4750BB864B06C89B2EB68C19 /* Bufferlines0070.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B9CC0BBACA4923AA1D7C5 /* Bufferlines0070.png */; };
+		477A45DEDEEC12196534A183 /* Bufferlines0057.png in Resources */ = {isa = PBXBuildFile; fileRef = 8209160BA949EE359A50A4CC /* Bufferlines0057.png */; };
+		4799DBE067C528C1851C080F /* Bufferlines0085.png in Resources */ = {isa = PBXBuildFile; fileRef = 351572CCFA5F8E5DAAC9A6BF /* Bufferlines0085.png */; };
+		480A579607EF2DDD488C0D79 /* Bufferlines0045.png in Resources */ = {isa = PBXBuildFile; fileRef = C450273DDA877E16A569EEE2 /* Bufferlines0045.png */; };
+		48FD588ADF542E59DFECCFBA /* Bufferlines0102.png in Resources */ = {isa = PBXBuildFile; fileRef = 5148DCB657054FF1819E97FC /* Bufferlines0102.png */; };
+		490530268769AC8748AE02B6 /* SWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4FCD896E488A410B7CDA22 /* SWToast.h */; };
+		49115F482F0134B0BBD387F3 /* Bufferlines0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D560C76E536F6E86731FCC /* Bufferlines0023.png */; };
+		49315495C9F8E27E2ECD8BD5 /* Bufferlines0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7E6C2B00B1943F6EB62B2C /* Bufferlines0036.png */; };
+		495F10E9D5063F9A554460F6 /* SWToastConstraintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965E7D8364E890D4FB18264 /* SWToastConstraintManager.m */; };
+		4AE717952B8AC6E0E7FBA982 /* Bufferlines0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 26810305F252E1B07D09B0B2 /* Bufferlines0049.png */; };
+		4BC9EBFDFBBDADED9CCA30CA /* Bufferlines0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 39DD866124CE01B6157062B6 /* Bufferlines0039.png */; };
+		4F85F200B132987A3CE0FB2A /* Bufferlines0035.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DED026119A93E0C7FE05AC /* Bufferlines0035.png */; };
+		5142BC64D95AF3833624F26F /* Bufferlines0089.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D65EF1DDD2DE21A12B6D5 /* Bufferlines0089.png */; };
+		52BC34A942A9D9530F90197A /* Bufferlines0010.png in Resources */ = {isa = PBXBuildFile; fileRef = DC09370862395F0EED13870B /* Bufferlines0010.png */; };
+		53DC5310278416C7A37764AD /* Bufferlines0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 5071E36F8D0AE2437D74F3FA /* Bufferlines0054.png */; };
+		53FB38FF54A7FC912D14ABA5 /* Bufferlines0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 5614C39B56CAC3AB2A7C518B /* Bufferlines0043.png */; };
+		54988B5ECC098C8EF02F1CA8 /* Bufferlines0064.png in Resources */ = {isa = PBXBuildFile; fileRef = 3560DC8956F51BCFDE241F1E /* Bufferlines0064.png */; };
+		5775347B7AD54F057224B56C /* Bufferlines0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 9978F6CD22FF0DA5C1541FD3 /* Bufferlines0056.png */; };
+		5780829A6CB18B4FE040B86C /* Pods-SWBufferedToast-SWBufferedToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EF4B25E3B1443348FDCF47 /* Pods-SWBufferedToast-SWBufferedToast-dummy.m */; };
+		578BB5B7EF38A7E453A1C157 /* SWBufferedToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B236873835E2BB7357F8 /* SWBufferedToast.m */; };
+		57FB557C4E0065E822129E9E /* Bufferlines0095.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F390C533468CFACF6050D9B /* Bufferlines0095.png */; };
+		5B20513FDF75EAC8AA90CC4A /* Bufferlines0098.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC978858EC71E116BDEF634 /* Bufferlines0098.png */; };
+		5B70FA96BFFB974DACC06543 /* Bufferlines0014.png in Resources */ = {isa = PBXBuildFile; fileRef = BC176CA20A724A803B2DCFDF /* Bufferlines0014.png */; };
+		5D952233DD115EC6D26C4A40 /* Bufferlines0095.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F390C533468CFACF6050D9B /* Bufferlines0095.png */; };
+		5E28355F6680B6807B35E2E3 /* Bufferlines0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C02D692CB068E8DD1A85B04 /* Bufferlines0004.png */; };
+		5EDCEAA64C9F146DFCD072A6 /* Bufferlines0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 068C6F7C90C4068CCD91322E /* Bufferlines0065.png */; };
+		5F234C3843799EEE8FF948AA /* Bufferlines0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 9161841055685394243D44CB /* Bufferlines0040.png */; };
+		6118E1372E7F3F5CA2DBA1B6 /* Bufferlines0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0B9E949C339355AE2F8F3 /* Bufferlines0042.png */; };
+		622574894EFE98ECEFA94E36 /* SWToastConstraintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965E7D8364E890D4FB18264 /* SWToastConstraintManager.m */; };
+		625AB0AEB6C6142153AF8D5D /* Bufferlines0075.png in Resources */ = {isa = PBXBuildFile; fileRef = C752612A096EB4114AAE8A89 /* Bufferlines0075.png */; };
+		62A23B3E6A3A0CA86495D0E4 /* Bufferlines0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D98A93533C14FF907BDA569 /* Bufferlines0034.png */; };
+		6355658DC15531D9432BECE3 /* Bufferlines0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 23264AED07A91D475F2F948F /* Bufferlines0006.png */; };
+		645F51A23AEC97CCF8FE919B /* Bufferlines0092.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D2E59B7DE01B9E65A5B34 /* Bufferlines0092.png */; };
+		652D9393BFC410ECEB52FD11 /* Bufferlines0005.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D49033F4AF8DC27B1D966D /* Bufferlines0005.png */; };
+		652F73696E54DE14CECCA9AE /* Bufferlines0084.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E60993C0D0CA6D42FFAC0 /* Bufferlines0084.png */; };
+		65FAF549FDAE6B2C1D35FFEA /* Bufferlines0058.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B91FD229A6B6E7B06FB211 /* Bufferlines0058.png */; };
+		668F13219E496FEAA1032BDA /* Bufferlines0096.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6544E870934EA0ACD714 /* Bufferlines0096.png */; };
+		692924A27CA82972F833B717 /* Bufferlines0021.png in Resources */ = {isa = PBXBuildFile; fileRef = B696BA82190840B7813A93F7 /* Bufferlines0021.png */; };
+		693401CE422EF907B8003273 /* Bufferlines0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF91E47673EE585F31EFD73 /* Bufferlines0009.png */; };
+		69D39EC9E432232B552309BB /* Bufferlines0088.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C5EB8A43D273AF2F75313C /* Bufferlines0088.png */; };
+		6A52016CDA6591D785DC8CC7 /* Bufferlines0066.png in Resources */ = {isa = PBXBuildFile; fileRef = 641C6089109A36C9950DA5F0 /* Bufferlines0066.png */; };
+		6AF2699155752E7F8D0D06F1 /* Bufferlines0047.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0B5682E56483AFFB879375 /* Bufferlines0047.png */; };
+		6DA1EA4BD59E35D79C4734E9 /* Bufferlines0100.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB5C39BF8D6B047B0937F /* Bufferlines0100.png */; };
+		6E70257346EDFF91E91D4977 /* Bufferlines0070.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B9CC0BBACA4923AA1D7C5 /* Bufferlines0070.png */; };
+		6E7ED5DB6BE6C15950246A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E53987213B469FBA017088 /* Foundation.framework */; };
+		714010ACD15AA9357AA5FCB8 /* Bufferlines0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D79389E69B55DBA955ABF6E /* Bufferlines0067.png */; };
+		71A75C074AE2073E5503A1B6 /* Bufferlines0026.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB5FDDD3291E22FB1C3762D /* Bufferlines0026.png */; };
+		71ADB636AC23069E94E38ADC /* Bufferlines0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFBB3189602496E09D87379 /* Bufferlines0062.png */; };
+		72DEEEF1DC2D10859D856577 /* Bufferlines0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B4CF03CE4EE29DE7C2E932 /* Bufferlines0038.png */; };
+		73A60B79777E1D5C5DF36388 /* Bufferlines0030.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8982EEDFE352F063946D8 /* Bufferlines0030.png */; };
+		74DAFFCED9DBE04249569C46 /* Bufferlines0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE6DADA13E23AC1B057F9D /* Bufferlines0016.png */; };
+		7524903D9623B6AB807FDD26 /* Bufferlines0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C02D692CB068E8DD1A85B04 /* Bufferlines0004.png */; };
+		7565812D5CC09D8B3A9E527B /* Bufferlines0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0645C10E3AD27B633C4A3DB1 /* Bufferlines0048.png */; };
+		75D7B06ABA6D5017F0665E10 /* Bufferlines0069.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E4D5B03199D6F046DB28E /* Bufferlines0069.png */; };
+		768B2CC920164DAE6F8AB4EA /* Bufferlines0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 5614C39B56CAC3AB2A7C518B /* Bufferlines0043.png */; };
+		77B888399B90294DD02E8300 /* SWBufferedToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B236873835E2BB7357F8 /* SWBufferedToast.m */; };
+		78BADB2D5288501F199E1EF1 /* Bufferlines0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994095E8E6BCA1FB0A8BA6F /* Bufferlines0078.png */; };
+		7A104D1815D9E3A4BE956C84 /* SWToastConstraintManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA2A4B7F67B4A59B6867EE9 /* SWToastConstraintManager.h */; };
+		7AC51B9A29EB20F8ABE3BC7A /* Bufferlines0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 9978F6CD22FF0DA5C1541FD3 /* Bufferlines0056.png */; };
+		7B964016433672159F1203FB /* SWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4FCD896E488A410B7CDA22 /* SWToast.h */; };
+		7B9CAF5B0E7C96E553D7CDE3 /* Bufferlines0094.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C19F3ACDCB69DAC823881E7 /* Bufferlines0094.png */; };
+		7C83BCC3069A20CF362D675C /* Bufferlines0010.png in Resources */ = {isa = PBXBuildFile; fileRef = DC09370862395F0EED13870B /* Bufferlines0010.png */; };
+		7D640584B5A49BBB33943221 /* Bufferlines0097.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CAD7F4C2132D4761840B79 /* Bufferlines0097.png */; };
+		7D894EB5827FB33DABC64506 /* Bufferlines0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D79389E69B55DBA955ABF6E /* Bufferlines0067.png */; };
+		7F16284CD932FE537EDC3B0A /* Bufferlines0086.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89B53EB6E6E308B94E5C18 /* Bufferlines0086.png */; };
+		813E14342A0ADBB0054BBE51 /* Bufferlines0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FE6807B5D7E12710C13DAF /* Bufferlines0019.png */; };
+		8425D7F26E252C59E419FA98 /* Bufferlines0075.png in Resources */ = {isa = PBXBuildFile; fileRef = C752612A096EB4114AAE8A89 /* Bufferlines0075.png */; };
+		863E375097FF5F27124EF444 /* Bufferlines0101.png in Resources */ = {isa = PBXBuildFile; fileRef = D7420BF9DC027C02D7560B2F /* Bufferlines0101.png */; };
+		8A41F4DCA52815EE413695AD /* Bufferlines0060.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B231C817670B7E312E630F /* Bufferlines0060.png */; };
+		8A9800713E865D65AAC5D706 /* Pods-Tests-SWBufferedToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C869764C053D6BD2343E13 /* Pods-Tests-SWBufferedToast-dummy.m */; };
+		8B432B037DCED13FEF7CE99E /* Bufferlines0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C0ED43CFF98ADF7610099FAC /* Bufferlines0001.png */; };
+		8C54563EC8072E4F55F4976F /* Bufferlines0097.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CAD7F4C2132D4761840B79 /* Bufferlines0097.png */; };
+		8D3D913BBC72EC15A6805BC3 /* Bufferlines0028.png in Resources */ = {isa = PBXBuildFile; fileRef = D3338C87F7A89C28BE6564A3 /* Bufferlines0028.png */; };
+		8F310A4300D81F6F9A35AA35 /* Bufferlines0086.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89B53EB6E6E308B94E5C18 /* Bufferlines0086.png */; };
+		8F7C075B1EC3F58D302D3BAE /* Bufferlines0059.png in Resources */ = {isa = PBXBuildFile; fileRef = 779113F216E71A6A4060B56D /* Bufferlines0059.png */; };
+		95D39804A4256656EEAE5287 /* Bufferlines0011.png in Resources */ = {isa = PBXBuildFile; fileRef = B10F259368A0084601E1411E /* Bufferlines0011.png */; };
+		964A6AFEF5CEFF80F12261EE /* Bufferlines0071.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B670D80D8D9608C0A7DB90 /* Bufferlines0071.png */; };
+		9716FAB795045229D99A104C /* Bufferlines0071.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B670D80D8D9608C0A7DB90 /* Bufferlines0071.png */; };
+		9720EB921894BC7B5E52C334 /* Bufferlines0098.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC978858EC71E116BDEF634 /* Bufferlines0098.png */; };
+		977821C9A1C9BF4DA28D3074 /* Bufferlines0011.png in Resources */ = {isa = PBXBuildFile; fileRef = B10F259368A0084601E1411E /* Bufferlines0011.png */; };
+		97850C9171690D5C36E92163 /* Bufferlines0101.png in Resources */ = {isa = PBXBuildFile; fileRef = D7420BF9DC027C02D7560B2F /* Bufferlines0101.png */; };
+		97BF082C2664EA1B1EB554AB /* Bufferlines0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF27F36874FEF4A11A8CE9C /* Bufferlines0041.png */; };
+		992EFA6948082366D4C8D44B /* Bufferlines0052.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C55A03EDB5ADA16CBC4187 /* Bufferlines0052.png */; };
+		99AFFF075177D675F4C77B26 /* Bufferlines0076.png in Resources */ = {isa = PBXBuildFile; fileRef = 512680B0F5C84CF5ABFDD7ED /* Bufferlines0076.png */; };
+		99BD5418DD5D811367A6396A /* Bufferlines0090.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D211F5B53C8C19132DA4C2 /* Bufferlines0090.png */; };
+		9ABA19FA407516845730770D /* BufferMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A69C5D0A2BA72FAF2DEFDFA /* BufferMask.png */; };
+		9BD18294E687FF09925062D9 /* Bufferlines0044.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C18320515CA8BDA60F3EC5 /* Bufferlines0044.png */; };
+		9C1527950B6E3DA98B697413 /* Bufferlines0051.png in Resources */ = {isa = PBXBuildFile; fileRef = EC59DC87A009916EB486FF66 /* Bufferlines0051.png */; };
+		9CA3E2D6CF74C0CFD44A3187 /* Bufferlines0017.png in Resources */ = {isa = PBXBuildFile; fileRef = BC24E3CFFB2E2D6D4E48E1D1 /* Bufferlines0017.png */; };
+		9D4EA9C7A0990694E87DF48B /* Bufferlines0060.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B231C817670B7E312E630F /* Bufferlines0060.png */; };
+		A01EF91482963B86EC90DFF3 /* Bufferlines0094.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C19F3ACDCB69DAC823881E7 /* Bufferlines0094.png */; };
+		A0A46C2986B8A878854AF663 /* Bufferlines0033.png in Resources */ = {isa = PBXBuildFile; fileRef = A839C7D50615B48452D9721F /* Bufferlines0033.png */; };
+		A0C4688E0C088A5EEA6C38FE /* Bufferlines0072.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B503EBFF01D428C1AE338E /* Bufferlines0072.png */; };
+		A1254E53D15C0398453B14E3 /* Bufferlines0033.png in Resources */ = {isa = PBXBuildFile; fileRef = A839C7D50615B48452D9721F /* Bufferlines0033.png */; };
+		A132E03C9E1D907E72EEC66A /* Bufferlines0066.png in Resources */ = {isa = PBXBuildFile; fileRef = 641C6089109A36C9950DA5F0 /* Bufferlines0066.png */; };
+		A26D088E74DE2B6C50AB93FB /* Bufferlines0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 67DC3D5A7CEBA19BFCCE3A7C /* Bufferlines0029.png */; };
+		A286BC466B575F6073916CEB /* Bufferlines0028.png in Resources */ = {isa = PBXBuildFile; fileRef = D3338C87F7A89C28BE6564A3 /* Bufferlines0028.png */; };
+		A397346E378CAFAA1ACFCC91 /* Bufferlines0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EECFE4AB61D61FDD53DE945 /* Bufferlines0032.png */; };
+		A521F26C7A158788C9A6106F /* Bufferlines0096.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6544E870934EA0ACD714 /* Bufferlines0096.png */; };
+		A678B83D5BB0A677E6ACB202 /* Bufferlines0074.png in Resources */ = {isa = PBXBuildFile; fileRef = BA24EBD9C1B4F36DDEBAB5BB /* Bufferlines0074.png */; };
+		A77597C5308AAB733254E021 /* Bufferlines0082.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C8C7CC0F85313B881FBF63 /* Bufferlines0082.png */; };
+		AA7AF0EC90A61F3A2B5653F8 /* Bufferlines0050.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250771263A15C650117E49 /* Bufferlines0050.png */; };
+		AC3497FF5B5C4AD2A23FC8A3 /* Bufferlines0069.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E4D5B03199D6F046DB28E /* Bufferlines0069.png */; };
+		AC7E0B014ED161E93743150A /* Bufferlines0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF91E47673EE585F31EFD73 /* Bufferlines0009.png */; };
+		ADE76A2ED6806C607309B3EA /* Bufferlines0047.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0B5682E56483AFFB879375 /* Bufferlines0047.png */; };
+		AEBCE5DFDF5AE6CF64E1A7B9 /* Bufferlines0007.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EACEB03EAABC5227ACF26C /* Bufferlines0007.png */; };
+		B1036F99D60908B6BF239CE1 /* Bufferlines0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 2617CE9E91A47628C3E85DD5 /* Bufferlines0053.png */; };
+		B3DB442C46525C695EA2BD15 /* Pods-SWBufferedToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D18BDDDE87E321569D9C006 /* Pods-SWBufferedToast-dummy.m */; };
+		B41E0ED5CC5CABFA1053353D /* Bufferlines0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 9366A71CA2850D97C878C026 /* Bufferlines0037.png */; };
+		B64C492A40C6C7908D5A8189 /* BufferMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A69C5D0A2BA72FAF2DEFDFA /* BufferMask.png */; };
+		B6F5F42CA3D099E802994A16 /* Bufferlines0099.png in Resources */ = {isa = PBXBuildFile; fileRef = C82DE10DC2CF3FFF3E54A8F7 /* Bufferlines0099.png */; };
+		B7114F9FC2EA2B660381101D /* SWBufferedToast.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B8EBBDC684FF6E11F80DB2 /* SWBufferedToast.h */; };
+		B90EF0D94C296E3C16858159 /* Bufferlines0082.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C8C7CC0F85313B881FBF63 /* Bufferlines0082.png */; };
+		B9F05477390733215D4782D5 /* Bufferlines0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 551C23740FF046EAD4BD6E88 /* Bufferlines0018.png */; };
+		BA0AA3DC5648D7415AA2EE5A /* Bufferlines0090.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D211F5B53C8C19132DA4C2 /* Bufferlines0090.png */; };
+		BA22F83A22950188C9DF19CE /* Bufferlines0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0688C0A49DE0091A3AF34B /* Bufferlines0063.png */; };
+		BA4FA0BFFB181D05E9D3FB39 /* Bufferlines0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 551C23740FF046EAD4BD6E88 /* Bufferlines0018.png */; };
+		BD00206AF5A452454569ECAC /* Bufferlines0068.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D8D64737560D4DAAA8A95C /* Bufferlines0068.png */; };
+		BD0FFC53C0262509A6931944 /* Bufferlines0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 5071E36F8D0AE2437D74F3FA /* Bufferlines0054.png */; };
+		BD61B363FCB47D6232F5223A /* Bufferlines0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BA297DFF5DBE54238060DF /* Bufferlines0003.png */; };
+		BDCEF0B3D400C33C8795C57C /* Bufferlines0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFBB3189602496E09D87379 /* Bufferlines0062.png */; };
+		BEFC684A3FDA1E6C83CFE690 /* Bufferlines0092.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D2E59B7DE01B9E65A5B34 /* Bufferlines0092.png */; };
+		BF1EE661AA8B61646E35B01E /* Bufferlines0061.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E39B98816EE11BA07962E7 /* Bufferlines0061.png */; };
+		BF64CE4C18BFA3B9854ACE5A /* Bufferlines0084.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E60993C0D0CA6D42FFAC0 /* Bufferlines0084.png */; };
+		BFC42E35D4F11F985444301F /* Bufferlines0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E40C47334819F8C0EB3F80 /* Bufferlines0020.png */; };
+		C3E3A645FA8BAA363DFBCDD3 /* Bufferlines0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FE6807B5D7E12710C13DAF /* Bufferlines0019.png */; };
+		C5562B6CDEC294E047033B57 /* Bufferlines0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 280771BE35D78CBD3ED0BF6D /* Bufferlines0024.png */; };
+		C5C63B57D40977386ECB3D38 /* Bufferlines0052.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C55A03EDB5ADA16CBC4187 /* Bufferlines0052.png */; };
+		C7D9626FC8BD0DEBA53924E6 /* SWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC4FADEBF29AAC680622DA /* SWToast.m */; };
+		CE630FAF695437CFB843A72E /* Bufferlines0013.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD849A4FDCFE496FC58D933 /* Bufferlines0013.png */; };
+		CEC3BD3E07CAA028E94B2BF3 /* Bufferlines0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7E6C2B00B1943F6EB62B2C /* Bufferlines0036.png */; };
+		CF0AF341EFD51AD2CCDF0547 /* Bufferlines0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D98A93533C14FF907BDA569 /* Bufferlines0034.png */; };
+		CF5261A442F35C137DAD1BCC /* Bufferlines0074.png in Resources */ = {isa = PBXBuildFile; fileRef = BA24EBD9C1B4F36DDEBAB5BB /* Bufferlines0074.png */; };
+		D2351B27D60C1F4ED96C1310 /* Bufferlines0087.png in Resources */ = {isa = PBXBuildFile; fileRef = 0371749D989508146FEAC6EE /* Bufferlines0087.png */; };
+		D773C46FCEAC6659DC16260B /* Bufferlines0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 329CB89614D2B6F99E8A035D /* Bufferlines0002.png */; };
+		D8456AE8DAB71CA4D8B664D7 /* Bufferlines0099.png in Resources */ = {isa = PBXBuildFile; fileRef = C82DE10DC2CF3FFF3E54A8F7 /* Bufferlines0099.png */; };
+		D903842D648665D4B4637FBC /* Bufferlines0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 329CB89614D2B6F99E8A035D /* Bufferlines0002.png */; };
+		DA3C1D9B650191A6F8C20751 /* Bufferlines0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 26810305F252E1B07D09B0B2 /* Bufferlines0049.png */; };
+		DAC354C5F3AA414E0CFB5592 /* Bufferlines0051.png in Resources */ = {isa = PBXBuildFile; fileRef = EC59DC87A009916EB486FF66 /* Bufferlines0051.png */; };
+		DB73C8BA4FD6A2C7EAA1F2E1 /* Bufferlines0087.png in Resources */ = {isa = PBXBuildFile; fileRef = 0371749D989508146FEAC6EE /* Bufferlines0087.png */; };
+		DBFD6B6AE85E4BF362E3B997 /* Bufferlines0077.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD473A3E93DAC543DE0A8F8 /* Bufferlines0077.png */; };
+		DC2C4639DE7BFAFEB4890F1B /* Bufferlines0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EACAE442AA02F832E99EF55 /* Bufferlines0073.png */; };
+		DD4D68E60061758CDCA55E82 /* Bufferlines0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 9161841055685394243D44CB /* Bufferlines0040.png */; };
+		DEBC7F07CCF0F265FF966C22 /* Bufferlines0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EECFE4AB61D61FDD53DE945 /* Bufferlines0032.png */; };
+		DF4A545436615F5EFD53C2D3 /* Bufferlines0008.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB48B06C308958A35023B5B /* Bufferlines0008.png */; };
+		E1DC1DEE7C7A2A913597AB0F /* Bufferlines0030.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8982EEDFE352F063946D8 /* Bufferlines0030.png */; };
+		E38A541D3800FD7F957BFA0A /* SWToastConstraintManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA2A4B7F67B4A59B6867EE9 /* SWToastConstraintManager.h */; };
+		E467EF79F98E00CAB1F7A451 /* Bufferlines0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DAC82BCD37CBFBE826D7C2 /* Bufferlines0027.png */; };
+		E500EB908B711AECBB542ACE /* Bufferlines0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C0ED43CFF98ADF7610099FAC /* Bufferlines0001.png */; };
+		E617503BA464C83A8AA4ECBF /* Bufferlines0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE4AA6BAD2A7795B6BD0612 /* Bufferlines0015.png */; };
+		E6920627ACB00E06EE4F599F /* Bufferlines0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 280771BE35D78CBD3ED0BF6D /* Bufferlines0024.png */; };
+		E7D6FD97DDBA6000383125BD /* Bufferlines0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 39DD866124CE01B6157062B6 /* Bufferlines0039.png */; };
+		EC6F3330F36BF9EBBFDFA2E8 /* Bufferlines0059.png in Resources */ = {isa = PBXBuildFile; fileRef = 779113F216E71A6A4060B56D /* Bufferlines0059.png */; };
+		EC79370C2ADF7304189C1BA9 /* Bufferlines0080.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF566E8C205BE367322AA50 /* Bufferlines0080.png */; };
+		ED53F36AFD1A4A59C358269E /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66A57AD2A20157B50D7094 /* Pods-Tests-dummy.m */; };
+		ED7AE8B888E4393D557E156C /* Bufferlines0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE6DADA13E23AC1B057F9D /* Bufferlines0016.png */; };
+		EDA9073172ED339A9287662F /* Bufferlines0081.png in Resources */ = {isa = PBXBuildFile; fileRef = A6FDAFD83AC15BF8F77144EC /* Bufferlines0081.png */; };
+		EF05EDA2A1C8ED0745717337 /* Bufferlines0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0B9E949C339355AE2F8F3 /* Bufferlines0042.png */; };
+		EF18D8ACE5CEA02CC8379CF6 /* Bufferlines0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 23264AED07A91D475F2F948F /* Bufferlines0006.png */; };
+		F0DFB4CDC61045EEFF23CFEC /* Bufferlines0093.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E2DE21C79240C4E5E00B3D /* Bufferlines0093.png */; };
+		F3D4916EDB5B34042ED33AFD /* Bufferlines0083.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B47A08A7DD89510A6364114 /* Bufferlines0083.png */; };
+		F4DE3EA27E43B9BE80C00C88 /* Bufferlines0014.png in Resources */ = {isa = PBXBuildFile; fileRef = BC176CA20A724A803B2DCFDF /* Bufferlines0014.png */; };
+		F69EB76BC6920F9DAEF13B0E /* Bufferlines0050.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250771263A15C650117E49 /* Bufferlines0050.png */; };
+		F7095E73A5E4B1D7E78062FF /* Bufferlines0057.png in Resources */ = {isa = PBXBuildFile; fileRef = 8209160BA949EE359A50A4CC /* Bufferlines0057.png */; };
+		F78B2904C7C0882F197C219B /* Bufferlines0089.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D65EF1DDD2DE21A12B6D5 /* Bufferlines0089.png */; };
+		F88FD4168C93DFFABAC3C67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E53987213B469FBA017088 /* Foundation.framework */; };
+		F8C637D444BF9B10C0506119 /* Bufferlines0061.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E39B98816EE11BA07962E7 /* Bufferlines0061.png */; };
+		F9271A1B07EC2A3D96F91053 /* Bufferlines0091.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF609EDCD0523C8BEAE964A /* Bufferlines0091.png */; };
+		F9B54E335D199118200F280E /* Bufferlines0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 2617CE9E91A47628C3E85DD5 /* Bufferlines0053.png */; };
+		FD12BBCFC1BD9BCE1A78C17A /* Bufferlines0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F74587BE20B17574E6789AF /* Bufferlines0012.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DCABA07EEF3AE442D80A55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9923838783C745460922E7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF376EC0274960CEE4FF848;
+			remoteInfo = "Pods-SWBufferedToast-SWBufferedToast";
+		};
+		5C46AE530305DCCB71630510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9923838783C745460922E7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEE4F7E3B6C18B9A918519D;
+			remoteInfo = "Pods-Tests-SWBufferedToast";
+		};
+		8309EC9A5DD23EC0C49B343F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9923838783C745460922E7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428253989E84B80EC1C22993;
+			remoteInfo = "Pods-Tests-SWBufferedToast-SWBufferedToast";
+		};
+		A9E11FB586430CE7A59BE55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9923838783C745460922E7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12DE821F90F8E02FE93A1113;
+			remoteInfo = "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0371749D989508146FEAC6EE /* Bufferlines0087.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0087.png; sourceTree = "<group>"; };
+		04C8C7CC0F85313B881FBF63 /* Bufferlines0082.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0082.png; sourceTree = "<group>"; };
+		0645C10E3AD27B633C4A3DB1 /* Bufferlines0048.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0048.png; sourceTree = "<group>"; };
+		068C6F7C90C4068CCD91322E /* Bufferlines0065.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0065.png; sourceTree = "<group>"; };
+		08EF4B25E3B1443348FDCF47 /* Pods-SWBufferedToast-SWBufferedToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWBufferedToast-SWBufferedToast-dummy.m"; sourceTree = "<group>"; };
+		0B0688C0A49DE0091A3AF34B /* Bufferlines0063.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0063.png; sourceTree = "<group>"; };
+		0BF0B9E949C339355AE2F8F3 /* Bufferlines0042.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0042.png; sourceTree = "<group>"; };
+		0E0B9CC0BBACA4923AA1D7C5 /* Bufferlines0070.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0070.png; sourceTree = "<group>"; };
+		0E4D65EF1DDD2DE21A12B6D5 /* Bufferlines0089.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0089.png; sourceTree = "<group>"; };
+		0E5FEB001300C43B867089CD /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		0EECFE4AB61D61FDD53DE945 /* Bufferlines0032.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0032.png; sourceTree = "<group>"; };
+		10E53987213B469FBA017088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		14B503EBFF01D428C1AE338E /* Bufferlines0072.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0072.png; sourceTree = "<group>"; };
+		1BFBB3189602496E09D87379 /* Bufferlines0062.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0062.png; sourceTree = "<group>"; };
+		1C02D692CB068E8DD1A85B04 /* Bufferlines0004.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0004.png; sourceTree = "<group>"; };
+		1D98A93533C14FF907BDA569 /* Bufferlines0034.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0034.png; sourceTree = "<group>"; };
+		1F00B236873835E2BB7357F8 /* SWBufferedToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SWBufferedToast.m; sourceTree = "<group>"; };
+		20BA297DFF5DBE54238060DF /* Bufferlines0003.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0003.png; sourceTree = "<group>"; };
+		21C5EB8A43D273AF2F75313C /* Bufferlines0088.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0088.png; sourceTree = "<group>"; };
+		226B0A2A5F19F9A5ADF094E6 /* Pods-Tests-SWBufferedToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SWBufferedToast-prefix.pch"; path = "../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch"; sourceTree = "<group>"; };
+		23264AED07A91D475F2F948F /* Bufferlines0006.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0006.png; sourceTree = "<group>"; };
+		2617CE9E91A47628C3E85DD5 /* Bufferlines0053.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0053.png; sourceTree = "<group>"; };
+		2666B7FC274229CD11739FEC /* libPods-Tests-SWBufferedToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SWBufferedToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26810305F252E1B07D09B0B2 /* Bufferlines0049.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0049.png; sourceTree = "<group>"; };
+		280771BE35D78CBD3ED0BF6D /* Bufferlines0024.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0024.png; sourceTree = "<group>"; };
+		2A69C5D0A2BA72FAF2DEFDFA /* BufferMask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = BufferMask.png; sourceTree = "<group>"; };
+		2B4FCD896E488A410B7CDA22 /* SWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SWToast.h; sourceTree = "<group>"; };
+		2BC978858EC71E116BDEF634 /* Bufferlines0098.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0098.png; sourceTree = "<group>"; };
+		2BE4AA6BAD2A7795B6BD0612 /* Bufferlines0015.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0015.png; sourceTree = "<group>"; };
+		2C19F3ACDCB69DAC823881E7 /* Bufferlines0094.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0094.png; sourceTree = "<group>"; };
+		2EACAE442AA02F832E99EF55 /* Bufferlines0073.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0073.png; sourceTree = "<group>"; };
+		2F74587BE20B17574E6789AF /* Bufferlines0012.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0012.png; sourceTree = "<group>"; };
+		30B1D210865B716341730CD6 /* Bufferlines0022.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0022.png; sourceTree = "<group>"; };
+		321180CF6A24A274920BD524 /* libPods-SWBufferedToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWBufferedToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329CB89614D2B6F99E8A035D /* Bufferlines0002.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0002.png; sourceTree = "<group>"; };
+		351572CCFA5F8E5DAAC9A6BF /* Bufferlines0085.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0085.png; sourceTree = "<group>"; };
+		3560DC8956F51BCFDE241F1E /* Bufferlines0064.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0064.png; sourceTree = "<group>"; };
+		378E60993C0D0CA6D42FFAC0 /* Bufferlines0084.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0084.png; sourceTree = "<group>"; };
+		3965E7D8364E890D4FB18264 /* SWToastConstraintManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SWToastConstraintManager.m; sourceTree = "<group>"; };
+		39DD866124CE01B6157062B6 /* Bufferlines0039.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0039.png; sourceTree = "<group>"; };
+		39E2DE21C79240C4E5E00B3D /* Bufferlines0093.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0093.png; sourceTree = "<group>"; };
+		3BA2A4B7F67B4A59B6867EE9 /* SWToastConstraintManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SWToastConstraintManager.h; sourceTree = "<group>"; };
+		3F01096D79E7AC2C03C4FBCD /* Pods-SWBufferedToast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWBufferedToast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40DAC82BCD37CBFBE826D7C2 /* Bufferlines0027.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0027.png; sourceTree = "<group>"; };
+		42FE575FE7FE893ED30C1C72 /* libPods-SWBufferedToast-SWBufferedToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWBufferedToast-SWBufferedToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CAD7F4C2132D4761840B79 /* Bufferlines0097.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0097.png; sourceTree = "<group>"; };
+		45B231C817670B7E312E630F /* Bufferlines0060.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0060.png; sourceTree = "<group>"; };
+		4B47A08A7DD89510A6364114 /* Bufferlines0083.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0083.png; sourceTree = "<group>"; };
+		5071E36F8D0AE2437D74F3FA /* Bufferlines0054.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0054.png; sourceTree = "<group>"; };
+		50FE6807B5D7E12710C13DAF /* Bufferlines0019.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0019.png; sourceTree = "<group>"; };
+		512680B0F5C84CF5ABFDD7ED /* Bufferlines0076.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0076.png; sourceTree = "<group>"; };
+		5148DCB657054FF1819E97FC /* Bufferlines0102.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0102.png; sourceTree = "<group>"; };
+		551C23740FF046EAD4BD6E88 /* Bufferlines0018.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0018.png; sourceTree = "<group>"; };
+		5614C39B56CAC3AB2A7C518B /* Bufferlines0043.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0043.png; sourceTree = "<group>"; };
+		5994095E8E6BCA1FB0A8BA6F /* Bufferlines0078.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0078.png; sourceTree = "<group>"; };
+		5F363FF9D8C92DDD8260284C /* Pods-SWBufferedToast-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWBufferedToast-environment.h"; sourceTree = "<group>"; };
+		602A16FDFC9EF0673454795B /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		641C6089109A36C9950DA5F0 /* Bufferlines0066.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0066.png; sourceTree = "<group>"; };
+		66B4CF03CE4EE29DE7C2E932 /* Bufferlines0038.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0038.png; sourceTree = "<group>"; };
+		675F6E418210F90790990319 /* Bufferlines0079.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0079.png; sourceTree = "<group>"; };
+		6796B17B2353AA73260CB4C3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67DC3D5A7CEBA19BFCCE3A7C /* Bufferlines0029.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0029.png; sourceTree = "<group>"; };
+		67EA886A14882A2AC732B331 /* Pods-SWBufferedToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWBufferedToast.debug.xcconfig"; sourceTree = "<group>"; };
+		69D560C76E536F6E86731FCC /* Bufferlines0023.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0023.png; sourceTree = "<group>"; };
+		6D209882973AAC926DC8F298 /* Pods-SWBufferedToast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWBufferedToast-resources.sh"; sourceTree = "<group>"; };
+		6EAE6DADA13E23AC1B057F9D /* Bufferlines0016.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0016.png; sourceTree = "<group>"; };
+		6FF91E47673EE585F31EFD73 /* Bufferlines0009.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0009.png; sourceTree = "<group>"; };
+		713BCDD79736BB7FCFB182B4 /* SWBufferedToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWBufferedToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		779113F216E71A6A4060B56D /* Bufferlines0059.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0059.png; sourceTree = "<group>"; };
+		789E12155AB20C3201464FC7 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF566E8C205BE367322AA50 /* Bufferlines0080.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0080.png; sourceTree = "<group>"; };
+		7D18BDDDE87E321569D9C006 /* Pods-SWBufferedToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWBufferedToast-dummy.m"; sourceTree = "<group>"; };
+		7D79389E69B55DBA955ABF6E /* Bufferlines0067.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0067.png; sourceTree = "<group>"; };
+		8063AFDCF9C652174E0C5344 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8209160BA949EE359A50A4CC /* Bufferlines0057.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0057.png; sourceTree = "<group>"; };
+		82E40C47334819F8C0EB3F80 /* Bufferlines0020.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0020.png; sourceTree = "<group>"; };
+		89E2E00FE04DFEE26628073F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A89B53EB6E6E308B94E5C18 /* Bufferlines0086.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0086.png; sourceTree = "<group>"; };
+		8EEC4FADEBF29AAC680622DA /* SWToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SWToast.m; sourceTree = "<group>"; };
+		8F390C533468CFACF6050D9B /* Bufferlines0095.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0095.png; sourceTree = "<group>"; };
+		9161841055685394243D44CB /* Bufferlines0040.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0040.png; sourceTree = "<group>"; };
+		9366A71CA2850D97C878C026 /* Bufferlines0037.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0037.png; sourceTree = "<group>"; };
+		941E4D5B03199D6F046DB28E /* Bufferlines0069.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0069.png; sourceTree = "<group>"; };
+		96CCB5C39BF8D6B047B0937F /* Bufferlines0100.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0100.png; sourceTree = "<group>"; };
+		97D5C442764266FC6FB4EEBB /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9978F6CD22FF0DA5C1541FD3 /* Bufferlines0056.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0056.png; sourceTree = "<group>"; };
+		9DF609EDCD0523C8BEAE964A /* Bufferlines0091.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0091.png; sourceTree = "<group>"; };
+		9E7E6C2B00B1943F6EB62B2C /* Bufferlines0036.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0036.png; sourceTree = "<group>"; };
+		9EF27F36874FEF4A11A8CE9C /* Bufferlines0041.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0041.png; sourceTree = "<group>"; };
+		9F7A296C57693F6448B003F0 /* Bufferlines0055.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0055.png; sourceTree = "<group>"; };
+		A2BFC09719107914207FEDB4 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		A6B670D80D8D9608C0A7DB90 /* Bufferlines0071.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0071.png; sourceTree = "<group>"; };
+		A6E39B98816EE11BA07962E7 /* Bufferlines0061.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0061.png; sourceTree = "<group>"; };
+		A6FDAFD83AC15BF8F77144EC /* Bufferlines0081.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0081.png; sourceTree = "<group>"; };
+		A839C7D50615B48452D9721F /* Bufferlines0033.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0033.png; sourceTree = "<group>"; };
+		AB273690FCA0436B6A47F3F2 /* Pods-Tests-SWBufferedToast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SWBufferedToast-Private.xcconfig"; path = "../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-Private.xcconfig"; sourceTree = "<group>"; };
+		ABE4F5A4AB560BF9EB33BF89 /* Bufferlines0046.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0046.png; sourceTree = "<group>"; };
+		B10F259368A0084601E1411E /* Bufferlines0011.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0011.png; sourceTree = "<group>"; };
+		B3D211F5B53C8C19132DA4C2 /* Bufferlines0090.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0090.png; sourceTree = "<group>"; };
+		B40D2E59B7DE01B9E65A5B34 /* Bufferlines0092.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0092.png; sourceTree = "<group>"; };
+		B696BA82190840B7813A93F7 /* Bufferlines0021.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0021.png; sourceTree = "<group>"; };
+		BA24EBD9C1B4F36DDEBAB5BB /* Bufferlines0074.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0074.png; sourceTree = "<group>"; };
+		BC176CA20A724A803B2DCFDF /* Bufferlines0014.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0014.png; sourceTree = "<group>"; };
+		BC24E3CFFB2E2D6D4E48E1D1 /* Bufferlines0017.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0017.png; sourceTree = "<group>"; };
+		BD66A57AD2A20157B50D7094 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BF0B5682E56483AFFB879375 /* Bufferlines0047.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0047.png; sourceTree = "<group>"; };
+		BFD849A4FDCFE496FC58D933 /* Bufferlines0013.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0013.png; sourceTree = "<group>"; };
+		C0ED43CFF98ADF7610099FAC /* Bufferlines0001.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0001.png; sourceTree = "<group>"; };
+		C1EACEB03EAABC5227ACF26C /* Bufferlines0007.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0007.png; sourceTree = "<group>"; };
+		C22C0845B801F6FCF0C3646E /* Pods-Tests-SWBufferedToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SWBufferedToast.xcconfig"; path = "../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast.xcconfig"; sourceTree = "<group>"; };
+		C2C869764C053D6BD2343E13 /* Pods-Tests-SWBufferedToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SWBufferedToast-dummy.m"; path = "../Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-dummy.m"; sourceTree = "<group>"; };
+		C450273DDA877E16A569EEE2 /* Bufferlines0045.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0045.png; sourceTree = "<group>"; };
+		C6D49033F4AF8DC27B1D966D /* Bufferlines0005.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0005.png; sourceTree = "<group>"; };
+		C752612A096EB4114AAE8A89 /* Bufferlines0075.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0075.png; sourceTree = "<group>"; };
+		C82DE10DC2CF3FFF3E54A8F7 /* Bufferlines0099.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0099.png; sourceTree = "<group>"; };
+		C9D8D64737560D4DAAA8A95C /* Bufferlines0068.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0068.png; sourceTree = "<group>"; };
+		D3338C87F7A89C28BE6564A3 /* Bufferlines0028.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0028.png; sourceTree = "<group>"; };
+		D469242E7AB998AFE6E940A8 /* Pods-SWBufferedToast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWBufferedToast-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6B8EBBDC684FF6E11F80DB2 /* SWBufferedToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SWBufferedToast.h; sourceTree = "<group>"; };
+		D7420BF9DC027C02D7560B2F /* Bufferlines0101.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0101.png; sourceTree = "<group>"; };
+		DAD473A3E93DAC543DE0A8F8 /* Bufferlines0077.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0077.png; sourceTree = "<group>"; };
+		DAE23A4E4CA2ACBDC00C979A /* Bufferlines0031.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0031.png; sourceTree = "<group>"; };
+		DBB5FDDD3291E22FB1C3762D /* Bufferlines0026.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0026.png; sourceTree = "<group>"; };
+		DC09370862395F0EED13870B /* Bufferlines0010.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0010.png; sourceTree = "<group>"; };
+		DF91D1D69D7AA6CC38E5C4C7 /* SWBufferedToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWBufferedToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A8B495A19661DC1F032830 /* Bufferlines0025.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0025.png; sourceTree = "<group>"; };
+		E49A474E2FF1C7118B07B32B /* Pods-SWBufferedToast-SWBufferedToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWBufferedToast-SWBufferedToast-prefix.pch"; sourceTree = "<group>"; };
+		E75D909ED888E535E8CC4B3C /* Pods-SWBufferedToast-SWBufferedToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWBufferedToast-SWBufferedToast.xcconfig"; sourceTree = "<group>"; };
+		E7C55A03EDB5ADA16CBC4187 /* Bufferlines0052.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0052.png; sourceTree = "<group>"; };
+		EC59DC87A009916EB486FF66 /* Bufferlines0051.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0051.png; sourceTree = "<group>"; };
+		EC6E59B03AE697A10946230D /* Pods-SWBufferedToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWBufferedToast.release.xcconfig"; sourceTree = "<group>"; };
+		EE6F4E50030BA2D070AD9B58 /* Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig"; sourceTree = "<group>"; };
+		F2A8982EEDFE352F063946D8 /* Bufferlines0030.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0030.png; sourceTree = "<group>"; };
+		F2ED6544E870934EA0ACD714 /* Bufferlines0096.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0096.png; sourceTree = "<group>"; };
+		F5C18320515CA8BDA60F3EC5 /* Bufferlines0044.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0044.png; sourceTree = "<group>"; };
+		F7B91FD229A6B6E7B06FB211 /* Bufferlines0058.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0058.png; sourceTree = "<group>"; };
+		F9DED026119A93E0C7FE05AC /* Bufferlines0035.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0035.png; sourceTree = "<group>"; };
+		FCB48B06C308958A35023B5B /* Bufferlines0008.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0008.png; sourceTree = "<group>"; };
+		FD250771263A15C650117E49 /* Bufferlines0050.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Bufferlines0050.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBB2FAE48ED87B216961025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA86CE6522044EA4C5DB078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4FEEE7BDBBDDB9093D5BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88FD4168C93DFFABAC3C67B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DE8ABA9A8E8F681958DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AF566794F6563D4218042A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE15295D0152E9C8316026DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7ED5DB6BE6C15950246A24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE951DC26ECC2C2BE6CBA6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430655ABA948AB86B9EEB743 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D5A0544C403A02D471E607 /* Pods-SWBufferedToast */ = {
+			isa = PBXGroup;
+			children = (
+				3F01096D79E7AC2C03C4FBCD /* Pods-SWBufferedToast-acknowledgements.markdown */,
+				D469242E7AB998AFE6E940A8 /* Pods-SWBufferedToast-acknowledgements.plist */,
+				7D18BDDDE87E321569D9C006 /* Pods-SWBufferedToast-dummy.m */,
+				5F363FF9D8C92DDD8260284C /* Pods-SWBufferedToast-environment.h */,
+				6D209882973AAC926DC8F298 /* Pods-SWBufferedToast-resources.sh */,
+				67EA886A14882A2AC732B331 /* Pods-SWBufferedToast.debug.xcconfig */,
+				EC6E59B03AE697A10946230D /* Pods-SWBufferedToast.release.xcconfig */,
+			);
+			name = "Pods-SWBufferedToast";
+			path = "Target Support Files/Pods-SWBufferedToast";
+			sourceTree = "<group>";
+		};
+		0A0425E212E4272F0858D256 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				10E53987213B469FBA017088 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		11494018C5AB18C7E9D5C6C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6B8EBBDC684FF6E11F80DB2 /* SWBufferedToast.h */,
+				1F00B236873835E2BB7357F8 /* SWBufferedToast.m */,
+				2B4FCD896E488A410B7CDA22 /* SWToast.h */,
+				8EEC4FADEBF29AAC680622DA /* SWToast.m */,
+				3BA2A4B7F67B4A59B6867EE9 /* SWToastConstraintManager.h */,
+				3965E7D8364E890D4FB18264 /* SWToastConstraintManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		21545589E09ADF34AD524890 /* SWBufferedToast */ = {
+			isa = PBXGroup;
+			children = (
+				2783AEE822719A2E64BFFB02 /* Pod */,
+				C7C8C23D9AB88EE57F544AD2 /* Resources */,
+				6F1872CD59506302CA25DB06 /* Support Files */,
+			);
+			name = SWBufferedToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2783AEE822719A2E64BFFB02 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11494018C5AB18C7E9D5C6C6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		31806867B07AB7C496FF0210 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43626ADE3537823E079EE928 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		43626ADE3537823E079EE928 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2A69C5D0A2BA72FAF2DEFDFA /* BufferMask.png */,
+				C0ED43CFF98ADF7610099FAC /* Bufferlines0001.png */,
+				329CB89614D2B6F99E8A035D /* Bufferlines0002.png */,
+				20BA297DFF5DBE54238060DF /* Bufferlines0003.png */,
+				1C02D692CB068E8DD1A85B04 /* Bufferlines0004.png */,
+				C6D49033F4AF8DC27B1D966D /* Bufferlines0005.png */,
+				23264AED07A91D475F2F948F /* Bufferlines0006.png */,
+				C1EACEB03EAABC5227ACF26C /* Bufferlines0007.png */,
+				FCB48B06C308958A35023B5B /* Bufferlines0008.png */,
+				6FF91E47673EE585F31EFD73 /* Bufferlines0009.png */,
+				DC09370862395F0EED13870B /* Bufferlines0010.png */,
+				B10F259368A0084601E1411E /* Bufferlines0011.png */,
+				2F74587BE20B17574E6789AF /* Bufferlines0012.png */,
+				BFD849A4FDCFE496FC58D933 /* Bufferlines0013.png */,
+				BC176CA20A724A803B2DCFDF /* Bufferlines0014.png */,
+				2BE4AA6BAD2A7795B6BD0612 /* Bufferlines0015.png */,
+				6EAE6DADA13E23AC1B057F9D /* Bufferlines0016.png */,
+				BC24E3CFFB2E2D6D4E48E1D1 /* Bufferlines0017.png */,
+				551C23740FF046EAD4BD6E88 /* Bufferlines0018.png */,
+				50FE6807B5D7E12710C13DAF /* Bufferlines0019.png */,
+				82E40C47334819F8C0EB3F80 /* Bufferlines0020.png */,
+				B696BA82190840B7813A93F7 /* Bufferlines0021.png */,
+				30B1D210865B716341730CD6 /* Bufferlines0022.png */,
+				69D560C76E536F6E86731FCC /* Bufferlines0023.png */,
+				280771BE35D78CBD3ED0BF6D /* Bufferlines0024.png */,
+				E2A8B495A19661DC1F032830 /* Bufferlines0025.png */,
+				DBB5FDDD3291E22FB1C3762D /* Bufferlines0026.png */,
+				40DAC82BCD37CBFBE826D7C2 /* Bufferlines0027.png */,
+				D3338C87F7A89C28BE6564A3 /* Bufferlines0028.png */,
+				67DC3D5A7CEBA19BFCCE3A7C /* Bufferlines0029.png */,
+				F2A8982EEDFE352F063946D8 /* Bufferlines0030.png */,
+				DAE23A4E4CA2ACBDC00C979A /* Bufferlines0031.png */,
+				0EECFE4AB61D61FDD53DE945 /* Bufferlines0032.png */,
+				A839C7D50615B48452D9721F /* Bufferlines0033.png */,
+				1D98A93533C14FF907BDA569 /* Bufferlines0034.png */,
+				F9DED026119A93E0C7FE05AC /* Bufferlines0035.png */,
+				9E7E6C2B00B1943F6EB62B2C /* Bufferlines0036.png */,
+				9366A71CA2850D97C878C026 /* Bufferlines0037.png */,
+				66B4CF03CE4EE29DE7C2E932 /* Bufferlines0038.png */,
+				39DD866124CE01B6157062B6 /* Bufferlines0039.png */,
+				9161841055685394243D44CB /* Bufferlines0040.png */,
+				9EF27F36874FEF4A11A8CE9C /* Bufferlines0041.png */,
+				0BF0B9E949C339355AE2F8F3 /* Bufferlines0042.png */,
+				5614C39B56CAC3AB2A7C518B /* Bufferlines0043.png */,
+				F5C18320515CA8BDA60F3EC5 /* Bufferlines0044.png */,
+				C450273DDA877E16A569EEE2 /* Bufferlines0045.png */,
+				ABE4F5A4AB560BF9EB33BF89 /* Bufferlines0046.png */,
+				BF0B5682E56483AFFB879375 /* Bufferlines0047.png */,
+				0645C10E3AD27B633C4A3DB1 /* Bufferlines0048.png */,
+				26810305F252E1B07D09B0B2 /* Bufferlines0049.png */,
+				FD250771263A15C650117E49 /* Bufferlines0050.png */,
+				EC59DC87A009916EB486FF66 /* Bufferlines0051.png */,
+				E7C55A03EDB5ADA16CBC4187 /* Bufferlines0052.png */,
+				2617CE9E91A47628C3E85DD5 /* Bufferlines0053.png */,
+				5071E36F8D0AE2437D74F3FA /* Bufferlines0054.png */,
+				9F7A296C57693F6448B003F0 /* Bufferlines0055.png */,
+				9978F6CD22FF0DA5C1541FD3 /* Bufferlines0056.png */,
+				8209160BA949EE359A50A4CC /* Bufferlines0057.png */,
+				F7B91FD229A6B6E7B06FB211 /* Bufferlines0058.png */,
+				779113F216E71A6A4060B56D /* Bufferlines0059.png */,
+				45B231C817670B7E312E630F /* Bufferlines0060.png */,
+				A6E39B98816EE11BA07962E7 /* Bufferlines0061.png */,
+				1BFBB3189602496E09D87379 /* Bufferlines0062.png */,
+				0B0688C0A49DE0091A3AF34B /* Bufferlines0063.png */,
+				3560DC8956F51BCFDE241F1E /* Bufferlines0064.png */,
+				068C6F7C90C4068CCD91322E /* Bufferlines0065.png */,
+				641C6089109A36C9950DA5F0 /* Bufferlines0066.png */,
+				7D79389E69B55DBA955ABF6E /* Bufferlines0067.png */,
+				C9D8D64737560D4DAAA8A95C /* Bufferlines0068.png */,
+				941E4D5B03199D6F046DB28E /* Bufferlines0069.png */,
+				0E0B9CC0BBACA4923AA1D7C5 /* Bufferlines0070.png */,
+				A6B670D80D8D9608C0A7DB90 /* Bufferlines0071.png */,
+				14B503EBFF01D428C1AE338E /* Bufferlines0072.png */,
+				2EACAE442AA02F832E99EF55 /* Bufferlines0073.png */,
+				BA24EBD9C1B4F36DDEBAB5BB /* Bufferlines0074.png */,
+				C752612A096EB4114AAE8A89 /* Bufferlines0075.png */,
+				512680B0F5C84CF5ABFDD7ED /* Bufferlines0076.png */,
+				DAD473A3E93DAC543DE0A8F8 /* Bufferlines0077.png */,
+				5994095E8E6BCA1FB0A8BA6F /* Bufferlines0078.png */,
+				675F6E418210F90790990319 /* Bufferlines0079.png */,
+				7AF566E8C205BE367322AA50 /* Bufferlines0080.png */,
+				A6FDAFD83AC15BF8F77144EC /* Bufferlines0081.png */,
+				04C8C7CC0F85313B881FBF63 /* Bufferlines0082.png */,
+				4B47A08A7DD89510A6364114 /* Bufferlines0083.png */,
+				378E60993C0D0CA6D42FFAC0 /* Bufferlines0084.png */,
+				351572CCFA5F8E5DAAC9A6BF /* Bufferlines0085.png */,
+				8A89B53EB6E6E308B94E5C18 /* Bufferlines0086.png */,
+				0371749D989508146FEAC6EE /* Bufferlines0087.png */,
+				21C5EB8A43D273AF2F75313C /* Bufferlines0088.png */,
+				0E4D65EF1DDD2DE21A12B6D5 /* Bufferlines0089.png */,
+				B3D211F5B53C8C19132DA4C2 /* Bufferlines0090.png */,
+				9DF609EDCD0523C8BEAE964A /* Bufferlines0091.png */,
+				B40D2E59B7DE01B9E65A5B34 /* Bufferlines0092.png */,
+				39E2DE21C79240C4E5E00B3D /* Bufferlines0093.png */,
+				2C19F3ACDCB69DAC823881E7 /* Bufferlines0094.png */,
+				8F390C533468CFACF6050D9B /* Bufferlines0095.png */,
+				F2ED6544E870934EA0ACD714 /* Bufferlines0096.png */,
+				43CAD7F4C2132D4761840B79 /* Bufferlines0097.png */,
+				2BC978858EC71E116BDEF634 /* Bufferlines0098.png */,
+				C82DE10DC2CF3FFF3E54A8F7 /* Bufferlines0099.png */,
+				96CCB5C39BF8D6B047B0937F /* Bufferlines0100.png */,
+				D7420BF9DC027C02D7560B2F /* Bufferlines0101.png */,
+				5148DCB657054FF1819E97FC /* Bufferlines0102.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4B000E1676674728510159B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713BCDD79736BB7FCFB182B4 /* SWBufferedToast.bundle */,
+				DF91D1D69D7AA6CC38E5C4C7 /* SWBufferedToast.bundle */,
+				321180CF6A24A274920BD524 /* libPods-SWBufferedToast.a */,
+				42FE575FE7FE893ED30C1C72 /* libPods-SWBufferedToast-SWBufferedToast.a */,
+				789E12155AB20C3201464FC7 /* libPods-Tests.a */,
+				2666B7FC274229CD11739FEC /* libPods-Tests-SWBufferedToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB92DFD17E5DBAC7E7AF223 = {
+			isa = PBXGroup;
+			children = (
+				6796B17B2353AA73260CB4C3 /* Podfile */,
+				E3072299A9499FEFE495125A /* Development Pods */,
+				93645C21A8B2438795AAFFBE /* Frameworks */,
+				4B000E1676674728510159B1 /* Products */,
+				5BE822EF125BAED595157706 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE822EF125BAED595157706 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D5A0544C403A02D471E607 /* Pods-SWBufferedToast */,
+				761E7D80CEE86697A96B36E6 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F1872CD59506302CA25DB06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75D909ED888E535E8CC4B3C /* Pods-SWBufferedToast-SWBufferedToast.xcconfig */,
+				EE6F4E50030BA2D070AD9B58 /* Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig */,
+				08EF4B25E3B1443348FDCF47 /* Pods-SWBufferedToast-SWBufferedToast-dummy.m */,
+				E49A474E2FF1C7118B07B32B /* Pods-SWBufferedToast-SWBufferedToast-prefix.pch */,
+				C22C0845B801F6FCF0C3646E /* Pods-Tests-SWBufferedToast.xcconfig */,
+				AB273690FCA0436B6A47F3F2 /* Pods-Tests-SWBufferedToast-Private.xcconfig */,
+				C2C869764C053D6BD2343E13 /* Pods-Tests-SWBufferedToast-dummy.m */,
+				226B0A2A5F19F9A5ADF094E6 /* Pods-Tests-SWBufferedToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SWBufferedToast-SWBufferedToast";
+			sourceTree = "<group>";
+		};
+		761E7D80CEE86697A96B36E6 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8063AFDCF9C652174E0C5344 /* Pods-Tests-acknowledgements.markdown */,
+				89E2E00FE04DFEE26628073F /* Pods-Tests-acknowledgements.plist */,
+				BD66A57AD2A20157B50D7094 /* Pods-Tests-dummy.m */,
+				A2BFC09719107914207FEDB4 /* Pods-Tests-environment.h */,
+				0E5FEB001300C43B867089CD /* Pods-Tests-resources.sh */,
+				602A16FDFC9EF0673454795B /* Pods-Tests.debug.xcconfig */,
+				97D5C442764266FC6FB4EEBB /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		93645C21A8B2438795AAFFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0425E212E4272F0858D256 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C8C23D9AB88EE57F544AD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31806867B07AB7C496FF0210 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3072299A9499FEFE495125A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21545589E09ADF34AD524890 /* SWBufferedToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B482291413481F22168D7D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300C4E24C8D9CB324EC449E4 /* SWBufferedToast.h in Headers */,
+				7B964016433672159F1203FB /* SWToast.h in Headers */,
+				7A104D1815D9E3A4BE956C84 /* SWToastConstraintManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D4D27AB97012605F4AFE13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7114F9FC2EA2B660381101D /* SWBufferedToast.h in Headers */,
+				490530268769AC8748AE02B6 /* SWToast.h in Headers */,
+				E38A541D3800FD7F957BFA0A /* SWToastConstraintManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12DE821F90F8E02FE93A1113 /* Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDC193D25809E24057BE27B /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast" */;
+			buildPhases = (
+				8E766C3B715E7AABA1F05F36 /* Sources */,
+				2BBB2FAE48ED87B216961025 /* Frameworks */,
+				2FFCF98F681867DFA00F18BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast";
+			productName = "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast";
+			productReference = DF91D1D69D7AA6CC38E5C4C7 /* SWBufferedToast.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2BCDF9E2DAB4B087D65F5906 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258C30CF6FAE04BAD924EB9F /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				2FDDECBF7FE4C78FB0DADEEC /* Sources */,
+				D37DE8ABA9A8E8F681958DA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE209B1645AE47F9CEFC309 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 789E12155AB20C3201464FC7 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		428253989E84B80EC1C22993 /* Pods-Tests-SWBufferedToast-SWBufferedToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB84083A0D2DCCD331C0D732 /* Build configuration list for PBXNativeTarget "Pods-Tests-SWBufferedToast-SWBufferedToast" */;
+			buildPhases = (
+				7D61ABF8094AB514A58D1E01 /* Sources */,
+				5AA86CE6522044EA4C5DB078 /* Frameworks */,
+				EB2F0C934BA6F107F3485E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-SWBufferedToast-SWBufferedToast";
+			productName = "Pods-Tests-SWBufferedToast-SWBufferedToast";
+			productReference = 713BCDD79736BB7FCFB182B4 /* SWBufferedToast.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5BF376EC0274960CEE4FF848 /* Pods-SWBufferedToast-SWBufferedToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB806D90F55D65C06F116F7 /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast-SWBufferedToast" */;
+			buildPhases = (
+				A5B0D0BBA356CAC447027C5B /* Sources */,
+				9F4FEEE7BDBBDDB9093D5BF5 /* Frameworks */,
+				3B482291413481F22168D7D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1327618E2A53169E771B9C02 /* PBXTargetDependency */,
+			);
+			name = "Pods-SWBufferedToast-SWBufferedToast";
+			productName = "Pods-SWBufferedToast-SWBufferedToast";
+			productReference = 42FE575FE7FE893ED30C1C72 /* libPods-SWBufferedToast-SWBufferedToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEEE4F7E3B6C18B9A918519D /* Pods-Tests-SWBufferedToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8040646E470CEDBE1369D13 /* Build configuration list for PBXNativeTarget "Pods-Tests-SWBufferedToast" */;
+			buildPhases = (
+				E01574DDB9D92621CFB1173E /* Sources */,
+				FE951DC26ECC2C2BE6CBA6D9 /* Frameworks */,
+				58D4D27AB97012605F4AFE13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DB325C95AAA07A5BA6205A /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-SWBufferedToast";
+			productName = "Pods-Tests-SWBufferedToast";
+			productReference = 2666B7FC274229CD11739FEC /* libPods-Tests-SWBufferedToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC732725F12C94EFA964FFE4 /* Pods-SWBufferedToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B490954C60CDCE34B4D1D5 /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast" */;
+			buildPhases = (
+				1E2387A2DB151C1C029F9F74 /* Sources */,
+				FE15295D0152E9C8316026DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A7FCB257C2BD70F6F3E886 /* PBXTargetDependency */,
+			);
+			name = "Pods-SWBufferedToast";
+			productName = "Pods-SWBufferedToast";
+			productReference = 321180CF6A24A274920BD524 /* libPods-SWBufferedToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9923838783C745460922E7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 406F0FF5D4087DC0D79F562B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AB92DFD17E5DBAC7E7AF223;
+			productRefGroup = 4B000E1676674728510159B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC732725F12C94EFA964FFE4 /* Pods-SWBufferedToast */,
+				5BF376EC0274960CEE4FF848 /* Pods-SWBufferedToast-SWBufferedToast */,
+				12DE821F90F8E02FE93A1113 /* Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast */,
+				2BCDF9E2DAB4B087D65F5906 /* Pods-Tests */,
+				DEEE4F7E3B6C18B9A918519D /* Pods-Tests-SWBufferedToast */,
+				428253989E84B80EC1C22993 /* Pods-Tests-SWBufferedToast-SWBufferedToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FFCF98F681867DFA00F18BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64C492A40C6C7908D5A8189 /* BufferMask.png in Resources */,
+				E500EB908B711AECBB542ACE /* Bufferlines0001.png in Resources */,
+				D903842D648665D4B4637FBC /* Bufferlines0002.png in Resources */,
+				BD61B363FCB47D6232F5223A /* Bufferlines0003.png in Resources */,
+				5E28355F6680B6807B35E2E3 /* Bufferlines0004.png in Resources */,
+				652D9393BFC410ECEB52FD11 /* Bufferlines0005.png in Resources */,
+				EF18D8ACE5CEA02CC8379CF6 /* Bufferlines0006.png in Resources */,
+				AEBCE5DFDF5AE6CF64E1A7B9 /* Bufferlines0007.png in Resources */,
+				DF4A545436615F5EFD53C2D3 /* Bufferlines0008.png in Resources */,
+				693401CE422EF907B8003273 /* Bufferlines0009.png in Resources */,
+				52BC34A942A9D9530F90197A /* Bufferlines0010.png in Resources */,
+				95D39804A4256656EEAE5287 /* Bufferlines0011.png in Resources */,
+				05E3A978DD65186B56628881 /* Bufferlines0012.png in Resources */,
+				2091BE6A8AF6B72BB94422CC /* Bufferlines0013.png in Resources */,
+				F4DE3EA27E43B9BE80C00C88 /* Bufferlines0014.png in Resources */,
+				0963DC6A30C5D581AA6DCAAC /* Bufferlines0015.png in Resources */,
+				ED7AE8B888E4393D557E156C /* Bufferlines0016.png in Resources */,
+				0B6683C92DB74FA96FF0C7D8 /* Bufferlines0017.png in Resources */,
+				B9F05477390733215D4782D5 /* Bufferlines0018.png in Resources */,
+				C3E3A645FA8BAA363DFBCDD3 /* Bufferlines0019.png in Resources */,
+				3B8BCB769E0ED787CC67E000 /* Bufferlines0020.png in Resources */,
+				16B76FC64CEEA00E02AD84A7 /* Bufferlines0021.png in Resources */,
+				0E9C6CA0E2CE2A3E568A2DDC /* Bufferlines0022.png in Resources */,
+				49115F482F0134B0BBD387F3 /* Bufferlines0023.png in Resources */,
+				C5562B6CDEC294E047033B57 /* Bufferlines0024.png in Resources */,
+				19387EA290A0B3A639C077DA /* Bufferlines0025.png in Resources */,
+				71A75C074AE2073E5503A1B6 /* Bufferlines0026.png in Resources */,
+				0EFDB3AF55B5257CEBEB370D /* Bufferlines0027.png in Resources */,
+				A286BC466B575F6073916CEB /* Bufferlines0028.png in Resources */,
+				A26D088E74DE2B6C50AB93FB /* Bufferlines0029.png in Resources */,
+				E1DC1DEE7C7A2A913597AB0F /* Bufferlines0030.png in Resources */,
+				05833A76E9797B2D590DEE05 /* Bufferlines0031.png in Resources */,
+				DEBC7F07CCF0F265FF966C22 /* Bufferlines0032.png in Resources */,
+				A1254E53D15C0398453B14E3 /* Bufferlines0033.png in Resources */,
+				CF0AF341EFD51AD2CCDF0547 /* Bufferlines0034.png in Resources */,
+				4F85F200B132987A3CE0FB2A /* Bufferlines0035.png in Resources */,
+				CEC3BD3E07CAA028E94B2BF3 /* Bufferlines0036.png in Resources */,
+				1E852E0A0A059279E4CAF7FB /* Bufferlines0037.png in Resources */,
+				72DEEEF1DC2D10859D856577 /* Bufferlines0038.png in Resources */,
+				4BC9EBFDFBBDADED9CCA30CA /* Bufferlines0039.png in Resources */,
+				DD4D68E60061758CDCA55E82 /* Bufferlines0040.png in Resources */,
+				38E6D488A8AD3C9471BBCDD0 /* Bufferlines0041.png in Resources */,
+				EF05EDA2A1C8ED0745717337 /* Bufferlines0042.png in Resources */,
+				53FB38FF54A7FC912D14ABA5 /* Bufferlines0043.png in Resources */,
+				9BD18294E687FF09925062D9 /* Bufferlines0044.png in Resources */,
+				480A579607EF2DDD488C0D79 /* Bufferlines0045.png in Resources */,
+				16CC55FF1A2E102D65461BFA /* Bufferlines0046.png in Resources */,
+				6AF2699155752E7F8D0D06F1 /* Bufferlines0047.png in Resources */,
+				19701AAC4B1B7A720A662C0D /* Bufferlines0048.png in Resources */,
+				4AE717952B8AC6E0E7FBA982 /* Bufferlines0049.png in Resources */,
+				AA7AF0EC90A61F3A2B5653F8 /* Bufferlines0050.png in Resources */,
+				9C1527950B6E3DA98B697413 /* Bufferlines0051.png in Resources */,
+				992EFA6948082366D4C8D44B /* Bufferlines0052.png in Resources */,
+				B1036F99D60908B6BF239CE1 /* Bufferlines0053.png in Resources */,
+				BD0FFC53C0262509A6931944 /* Bufferlines0054.png in Resources */,
+				424BCA26CF835EA40ADFF7DF /* Bufferlines0055.png in Resources */,
+				5775347B7AD54F057224B56C /* Bufferlines0056.png in Resources */,
+				F7095E73A5E4B1D7E78062FF /* Bufferlines0057.png in Resources */,
+				354E8BCCD30534BC1E08EAF2 /* Bufferlines0058.png in Resources */,
+				8F7C075B1EC3F58D302D3BAE /* Bufferlines0059.png in Resources */,
+				8A41F4DCA52815EE413695AD /* Bufferlines0060.png in Resources */,
+				F8C637D444BF9B10C0506119 /* Bufferlines0061.png in Resources */,
+				BDCEF0B3D400C33C8795C57C /* Bufferlines0062.png in Resources */,
+				2C22EED2CA147BC355ADDDFA /* Bufferlines0063.png in Resources */,
+				06E69C8D922289ED676CB083 /* Bufferlines0064.png in Resources */,
+				468F7E321961D0F54072CEA4 /* Bufferlines0065.png in Resources */,
+				A132E03C9E1D907E72EEC66A /* Bufferlines0066.png in Resources */,
+				714010ACD15AA9357AA5FCB8 /* Bufferlines0067.png in Resources */,
+				150FF79E17C89EEDE3830F47 /* Bufferlines0068.png in Resources */,
+				AC3497FF5B5C4AD2A23FC8A3 /* Bufferlines0069.png in Resources */,
+				4750BB864B06C89B2EB68C19 /* Bufferlines0070.png in Resources */,
+				9716FAB795045229D99A104C /* Bufferlines0071.png in Resources */,
+				A0C4688E0C088A5EEA6C38FE /* Bufferlines0072.png in Resources */,
+				DC2C4639DE7BFAFEB4890F1B /* Bufferlines0073.png in Resources */,
+				A678B83D5BB0A677E6ACB202 /* Bufferlines0074.png in Resources */,
+				8425D7F26E252C59E419FA98 /* Bufferlines0075.png in Resources */,
+				3528C143BF9F8E898FE3341E /* Bufferlines0076.png in Resources */,
+				36A318A11ECC45CDC9828244 /* Bufferlines0077.png in Resources */,
+				78BADB2D5288501F199E1EF1 /* Bufferlines0078.png in Resources */,
+				0A8186FF6A8B3BB8660F59A0 /* Bufferlines0079.png in Resources */,
+				0CB524A7E276A290310F0608 /* Bufferlines0080.png in Resources */,
+				261A0B463482067562D1B91B /* Bufferlines0081.png in Resources */,
+				B90EF0D94C296E3C16858159 /* Bufferlines0082.png in Resources */,
+				0AEE51428AB1006F23538C0D /* Bufferlines0083.png in Resources */,
+				BF64CE4C18BFA3B9854ACE5A /* Bufferlines0084.png in Resources */,
+				4799DBE067C528C1851C080F /* Bufferlines0085.png in Resources */,
+				8F310A4300D81F6F9A35AA35 /* Bufferlines0086.png in Resources */,
+				DB73C8BA4FD6A2C7EAA1F2E1 /* Bufferlines0087.png in Resources */,
+				2CC8BA0D271C15795921B7BA /* Bufferlines0088.png in Resources */,
+				5142BC64D95AF3833624F26F /* Bufferlines0089.png in Resources */,
+				99BD5418DD5D811367A6396A /* Bufferlines0090.png in Resources */,
+				125750AA1905FB39713DD3C1 /* Bufferlines0091.png in Resources */,
+				645F51A23AEC97CCF8FE919B /* Bufferlines0092.png in Resources */,
+				26571C2980EFDF22D7BED033 /* Bufferlines0093.png in Resources */,
+				A01EF91482963B86EC90DFF3 /* Bufferlines0094.png in Resources */,
+				5D952233DD115EC6D26C4A40 /* Bufferlines0095.png in Resources */,
+				A521F26C7A158788C9A6106F /* Bufferlines0096.png in Resources */,
+				7D640584B5A49BBB33943221 /* Bufferlines0097.png in Resources */,
+				9720EB921894BC7B5E52C334 /* Bufferlines0098.png in Resources */,
+				B6F5F42CA3D099E802994A16 /* Bufferlines0099.png in Resources */,
+				6DA1EA4BD59E35D79C4734E9 /* Bufferlines0100.png in Resources */,
+				863E375097FF5F27124EF444 /* Bufferlines0101.png in Resources */,
+				0BC50D859001E9C1175B4038 /* Bufferlines0102.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2F0C934BA6F107F3485E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABA19FA407516845730770D /* BufferMask.png in Resources */,
+				8B432B037DCED13FEF7CE99E /* Bufferlines0001.png in Resources */,
+				D773C46FCEAC6659DC16260B /* Bufferlines0002.png in Resources */,
+				35F70403AECB27F8013C1B19 /* Bufferlines0003.png in Resources */,
+				7524903D9623B6AB807FDD26 /* Bufferlines0004.png in Resources */,
+				45DF97D8E5F39F89C5F8AF7A /* Bufferlines0005.png in Resources */,
+				6355658DC15531D9432BECE3 /* Bufferlines0006.png in Resources */,
+				3F5BA423F5EC205EDA0521D2 /* Bufferlines0007.png in Resources */,
+				194F457C01A08D47A75388B2 /* Bufferlines0008.png in Resources */,
+				AC7E0B014ED161E93743150A /* Bufferlines0009.png in Resources */,
+				7C83BCC3069A20CF362D675C /* Bufferlines0010.png in Resources */,
+				977821C9A1C9BF4DA28D3074 /* Bufferlines0011.png in Resources */,
+				FD12BBCFC1BD9BCE1A78C17A /* Bufferlines0012.png in Resources */,
+				CE630FAF695437CFB843A72E /* Bufferlines0013.png in Resources */,
+				5B70FA96BFFB974DACC06543 /* Bufferlines0014.png in Resources */,
+				E617503BA464C83A8AA4ECBF /* Bufferlines0015.png in Resources */,
+				74DAFFCED9DBE04249569C46 /* Bufferlines0016.png in Resources */,
+				9CA3E2D6CF74C0CFD44A3187 /* Bufferlines0017.png in Resources */,
+				BA4FA0BFFB181D05E9D3FB39 /* Bufferlines0018.png in Resources */,
+				813E14342A0ADBB0054BBE51 /* Bufferlines0019.png in Resources */,
+				BFC42E35D4F11F985444301F /* Bufferlines0020.png in Resources */,
+				692924A27CA82972F833B717 /* Bufferlines0021.png in Resources */,
+				1A701C7E7C746DF6F7DBC6D8 /* Bufferlines0022.png in Resources */,
+				3F505B1AAEDF6365C4421E84 /* Bufferlines0023.png in Resources */,
+				E6920627ACB00E06EE4F599F /* Bufferlines0024.png in Resources */,
+				1800FA3A352646E37E1D832E /* Bufferlines0025.png in Resources */,
+				12D908C5F2E0186384A0B9E7 /* Bufferlines0026.png in Resources */,
+				E467EF79F98E00CAB1F7A451 /* Bufferlines0027.png in Resources */,
+				8D3D913BBC72EC15A6805BC3 /* Bufferlines0028.png in Resources */,
+				254E4C8B709F03390D09F021 /* Bufferlines0029.png in Resources */,
+				73A60B79777E1D5C5DF36388 /* Bufferlines0030.png in Resources */,
+				16AEF5344DA7819BAB762321 /* Bufferlines0031.png in Resources */,
+				A397346E378CAFAA1ACFCC91 /* Bufferlines0032.png in Resources */,
+				A0A46C2986B8A878854AF663 /* Bufferlines0033.png in Resources */,
+				62A23B3E6A3A0CA86495D0E4 /* Bufferlines0034.png in Resources */,
+				28BD97D08B88DCD25D1D733E /* Bufferlines0035.png in Resources */,
+				49315495C9F8E27E2ECD8BD5 /* Bufferlines0036.png in Resources */,
+				B41E0ED5CC5CABFA1053353D /* Bufferlines0037.png in Resources */,
+				3AA57900E6EFD7D57DECA1A2 /* Bufferlines0038.png in Resources */,
+				E7D6FD97DDBA6000383125BD /* Bufferlines0039.png in Resources */,
+				5F234C3843799EEE8FF948AA /* Bufferlines0040.png in Resources */,
+				97BF082C2664EA1B1EB554AB /* Bufferlines0041.png in Resources */,
+				6118E1372E7F3F5CA2DBA1B6 /* Bufferlines0042.png in Resources */,
+				768B2CC920164DAE6F8AB4EA /* Bufferlines0043.png in Resources */,
+				2B20116F1996DEFBFAD016CB /* Bufferlines0044.png in Resources */,
+				3AD4E6B29438FE6B98464420 /* Bufferlines0045.png in Resources */,
+				2B5FD28C5FCB188EA9B3A46B /* Bufferlines0046.png in Resources */,
+				ADE76A2ED6806C607309B3EA /* Bufferlines0047.png in Resources */,
+				7565812D5CC09D8B3A9E527B /* Bufferlines0048.png in Resources */,
+				DA3C1D9B650191A6F8C20751 /* Bufferlines0049.png in Resources */,
+				F69EB76BC6920F9DAEF13B0E /* Bufferlines0050.png in Resources */,
+				DAC354C5F3AA414E0CFB5592 /* Bufferlines0051.png in Resources */,
+				C5C63B57D40977386ECB3D38 /* Bufferlines0052.png in Resources */,
+				F9B54E335D199118200F280E /* Bufferlines0053.png in Resources */,
+				53DC5310278416C7A37764AD /* Bufferlines0054.png in Resources */,
+				1D5585C7378CA04595B4ABB3 /* Bufferlines0055.png in Resources */,
+				7AC51B9A29EB20F8ABE3BC7A /* Bufferlines0056.png in Resources */,
+				477A45DEDEEC12196534A183 /* Bufferlines0057.png in Resources */,
+				65FAF549FDAE6B2C1D35FFEA /* Bufferlines0058.png in Resources */,
+				EC6F3330F36BF9EBBFDFA2E8 /* Bufferlines0059.png in Resources */,
+				9D4EA9C7A0990694E87DF48B /* Bufferlines0060.png in Resources */,
+				BF1EE661AA8B61646E35B01E /* Bufferlines0061.png in Resources */,
+				71ADB636AC23069E94E38ADC /* Bufferlines0062.png in Resources */,
+				BA22F83A22950188C9DF19CE /* Bufferlines0063.png in Resources */,
+				54988B5ECC098C8EF02F1CA8 /* Bufferlines0064.png in Resources */,
+				5EDCEAA64C9F146DFCD072A6 /* Bufferlines0065.png in Resources */,
+				6A52016CDA6591D785DC8CC7 /* Bufferlines0066.png in Resources */,
+				7D894EB5827FB33DABC64506 /* Bufferlines0067.png in Resources */,
+				BD00206AF5A452454569ECAC /* Bufferlines0068.png in Resources */,
+				75D7B06ABA6D5017F0665E10 /* Bufferlines0069.png in Resources */,
+				6E70257346EDFF91E91D4977 /* Bufferlines0070.png in Resources */,
+				964A6AFEF5CEFF80F12261EE /* Bufferlines0071.png in Resources */,
+				3E8A345560F627CE827B9DDC /* Bufferlines0072.png in Resources */,
+				3EF36B0D14F62BE1A9D789B7 /* Bufferlines0073.png in Resources */,
+				CF5261A442F35C137DAD1BCC /* Bufferlines0074.png in Resources */,
+				625AB0AEB6C6142153AF8D5D /* Bufferlines0075.png in Resources */,
+				99AFFF075177D675F4C77B26 /* Bufferlines0076.png in Resources */,
+				DBFD6B6AE85E4BF362E3B997 /* Bufferlines0077.png in Resources */,
+				0109D866195B9BCCFE0D069C /* Bufferlines0078.png in Resources */,
+				406FA770E2C194C79A72FFDA /* Bufferlines0079.png in Resources */,
+				EC79370C2ADF7304189C1BA9 /* Bufferlines0080.png in Resources */,
+				EDA9073172ED339A9287662F /* Bufferlines0081.png in Resources */,
+				A77597C5308AAB733254E021 /* Bufferlines0082.png in Resources */,
+				F3D4916EDB5B34042ED33AFD /* Bufferlines0083.png in Resources */,
+				652F73696E54DE14CECCA9AE /* Bufferlines0084.png in Resources */,
+				233C749638D832D249BE25AD /* Bufferlines0085.png in Resources */,
+				7F16284CD932FE537EDC3B0A /* Bufferlines0086.png in Resources */,
+				D2351B27D60C1F4ED96C1310 /* Bufferlines0087.png in Resources */,
+				69D39EC9E432232B552309BB /* Bufferlines0088.png in Resources */,
+				F78B2904C7C0882F197C219B /* Bufferlines0089.png in Resources */,
+				BA0AA3DC5648D7415AA2EE5A /* Bufferlines0090.png in Resources */,
+				F9271A1B07EC2A3D96F91053 /* Bufferlines0091.png in Resources */,
+				BEFC684A3FDA1E6C83CFE690 /* Bufferlines0092.png in Resources */,
+				F0DFB4CDC61045EEFF23CFEC /* Bufferlines0093.png in Resources */,
+				7B9CAF5B0E7C96E553D7CDE3 /* Bufferlines0094.png in Resources */,
+				57FB557C4E0065E822129E9E /* Bufferlines0095.png in Resources */,
+				668F13219E496FEAA1032BDA /* Bufferlines0096.png in Resources */,
+				8C54563EC8072E4F55F4976F /* Bufferlines0097.png in Resources */,
+				5B20513FDF75EAC8AA90CC4A /* Bufferlines0098.png in Resources */,
+				D8456AE8DAB71CA4D8B664D7 /* Bufferlines0099.png in Resources */,
+				045ECD66F4F5B989353D3AF7 /* Bufferlines0100.png in Resources */,
+				97850C9171690D5C36E92163 /* Bufferlines0101.png in Resources */,
+				48FD588ADF542E59DFECCFBA /* Bufferlines0102.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2387A2DB151C1C029F9F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB442C46525C695EA2BD15 /* Pods-SWBufferedToast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDDECBF7FE4C78FB0DADEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED53F36AFD1A4A59C358269E /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D61ABF8094AB514A58D1E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E766C3B715E7AABA1F05F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B0D0BBA356CAC447027C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5780829A6CB18B4FE040B86C /* Pods-SWBufferedToast-SWBufferedToast-dummy.m in Sources */,
+				77B888399B90294DD02E8300 /* SWBufferedToast.m in Sources */,
+				12EF61E32C30767AD3EB9F3F /* SWToast.m in Sources */,
+				622574894EFE98ECEFA94E36 /* SWToastConstraintManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01574DDB9D92621CFB1173E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9800713E865D65AAC5D706 /* Pods-Tests-SWBufferedToast-dummy.m in Sources */,
+				578BB5B7EF38A7E453A1C157 /* SWBufferedToast.m in Sources */,
+				C7D9626FC8BD0DEBA53924E6 /* SWToast.m in Sources */,
+				495F10E9D5063F9A554460F6 /* SWToastConstraintManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1327618E2A53169E771B9C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast";
+			target = 12DE821F90F8E02FE93A1113 /* Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast */;
+			targetProxy = A9E11FB586430CE7A59BE55A /* PBXContainerItemProxy */;
+		};
+		15DB325C95AAA07A5BA6205A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SWBufferedToast-SWBufferedToast";
+			target = 428253989E84B80EC1C22993 /* Pods-Tests-SWBufferedToast-SWBufferedToast */;
+			targetProxy = 8309EC9A5DD23EC0C49B343F /* PBXContainerItemProxy */;
+		};
+		2AE209B1645AE47F9CEFC309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SWBufferedToast";
+			target = DEEE4F7E3B6C18B9A918519D /* Pods-Tests-SWBufferedToast */;
+			targetProxy = 5C46AE530305DCCB71630510 /* PBXContainerItemProxy */;
+		};
+		42A7FCB257C2BD70F6F3E886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SWBufferedToast-SWBufferedToast";
+			target = 5BF376EC0274960CEE4FF848 /* Pods-SWBufferedToast-SWBufferedToast */;
+			targetProxy = 1DCABA07EEF3AE442D80A55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B8895ECEBDCEB4B22AAD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SWBufferedToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		03F117A9C2E9CDE2C8E08564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F4E50030BA2D070AD9B58 /* Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SWBufferedToast-SWBufferedToast/Pods-SWBufferedToast-SWBufferedToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08250C5674C73DC436FC0767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D5C442764266FC6FB4EEBB /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A04516513783AFB26EE7F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EA886A14882A2AC732B331 /* Pods-SWBufferedToast.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B50D2EB54522BAA85E51154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EA5CAA147B48599BC51A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SWBufferedToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		930B291EB2F02537A9EABF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB273690FCA0436B6A47F3F2 /* Pods-Tests-SWBufferedToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E6B39ADA05E9C669A216D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB273690FCA0436B6A47F3F2 /* Pods-Tests-SWBufferedToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SWBufferedToast/Pods-Tests-SWBufferedToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B70D04044B70AC5ED7E1AC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602A16FDFC9EF0673454795B /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC29C836539EC75028C4D502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SWBufferedToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DB4F6580F7BC9D603EC42241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F4E50030BA2D070AD9B58 /* Pods-SWBufferedToast-SWBufferedToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SWBufferedToast-SWBufferedToast/Pods-SWBufferedToast-SWBufferedToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF042D375C628846154B83F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SWBufferedToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EC5639AE5D610AAA417A80A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99588AC9E2F5A098A02804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6E59B03AE697A10946230D /* Pods-SWBufferedToast.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		258C30CF6FAE04BAD924EB9F /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70D04044B70AC5ED7E1AC77 /* Debug */,
+				08250C5674C73DC436FC0767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406F0FF5D4087DC0D79F562B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B50D2EB54522BAA85E51154 /* Debug */,
+				EC5639AE5D610AAA417A80A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB806D90F55D65C06F116F7 /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast-SWBufferedToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F6580F7BC9D603EC42241 /* Debug */,
+				03F117A9C2E9CDE2C8E08564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDC193D25809E24057BE27B /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF042D375C628846154B83F4 /* Debug */,
+				00B8895ECEBDCEB4B22AAD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB84083A0D2DCCD331C0D732 /* Build configuration list for PBXNativeTarget "Pods-Tests-SWBufferedToast-SWBufferedToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA5CAA147B48599BC51A36A /* Debug */,
+				CC29C836539EC75028C4D502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8040646E470CEDBE1369D13 /* Build configuration list for PBXNativeTarget "Pods-Tests-SWBufferedToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6B39ADA05E9C669A216D4A /* Debug */,
+				930B291EB2F02537A9EABF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B490954C60CDCE34B4D1D5 /* Build configuration list for PBXNativeTarget "Pods-SWBufferedToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A04516513783AFB26EE7F53 /* Debug */,
+				F99588AC9E2F5A098A02804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9923838783C745460922E7B3 /* Project object */;
+}

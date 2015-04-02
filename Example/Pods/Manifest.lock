@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SWBufferedToast: 1b1ddc301af26a62128b37a0d67044ddde126da9
+  SWBufferedToast: d47bc16ef34e2a3869f51ece2ff6292a6c08b0a1
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.36.3

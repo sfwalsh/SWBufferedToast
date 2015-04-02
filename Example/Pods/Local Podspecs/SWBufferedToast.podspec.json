@@ -1,0 +1,25 @@
+{
+  "name": "SWBufferedToast",
+  "version": "0.1.0",
+  "summary": "A short description of SWBufferedToast.",
+  "description": "                       An optional longer description of SWBufferedToast\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/sfwalsh/SWBufferedToast",
+  "license": "MIT",
+  "authors": {
+    "Stephen Walsh": "sw7891@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sfwalsh/SWBufferedToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SWBufferedToast": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
