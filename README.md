@@ -22,7 +22,7 @@ pod "SWBufferedToast"
 
 ## Author
 
-Stephen Walsh, stephenw@donedeal.ie
+Stephen Walsh, sw7891@hotmail.com
 
 ## License
 

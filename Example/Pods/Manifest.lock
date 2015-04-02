@@ -1,0 +1,14 @@
+PODS:
+  - SWBufferedToast (0.1.0)
+
+DEPENDENCIES:
+  - SWBufferedToast (from `../`)
+
+EXTERNAL SOURCES:
+  SWBufferedToast:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SWBufferedToast: 1b1ddc301af26a62128b37a0d67044ddde126da9
+
+COCOAPODS: 0.34.4

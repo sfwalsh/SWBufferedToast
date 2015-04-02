@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/sfwalsh/SWBufferedToast"
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SWBufferedToast"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Stephen Walsh" => "sw7891@hotmail.com" }
-  s.source           = { :git => "https://github.com/sfwalsh/SWBufferedToast.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/Hapkido_ORourke'
+  s.author           = { "Stephen Walsh" => "stephenw@donedeal.ie" }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SWBufferedToast.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
