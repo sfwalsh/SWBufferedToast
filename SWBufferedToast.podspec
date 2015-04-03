@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
                        DESC
   s.homepage         = "https://github.com/sfwalsh/SWBufferedToast"
-  # s.screenshots     = "http://i.imgur.com/D64WQOh.png", "http://i.imgur.com/QvkMhX2.png"
+  # s.screenshots     = "https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png", "https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png", "https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/loginToast.png"
   s.license          = 'MIT'
   s.author           = { "Stephen Walsh" => "sw7891@hotmail.com" }
   s.source           = { :git => "https://github.com/sfwalsh/SWBufferedToast.git", :tag => s.version.to_s }
