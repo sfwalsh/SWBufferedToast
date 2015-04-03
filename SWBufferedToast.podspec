@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SWBufferedToast"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A simple UI class for presenting useful information to the user."
   s.description      = <<-DESC
 
