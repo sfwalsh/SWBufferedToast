@@ -33,10 +33,26 @@
                                     <action selector="exampleButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="emc-DC-2c2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TB-Hx-SGp">
+                                <rect key="frame" x="141" y="325" width="38" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="6Jx-80-qZV"/>
+                                    <constraint firstAttribute="height" constant="30" id="6PJ-Fz-sMF"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapLoginButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yaJ-Rh-sBP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="DfS-4x-51h" secondAttribute="centerY" id="HGu-yc-Br2"/>
+                            <constraint firstAttribute="centerX" secondItem="4TB-Hx-SGp" secondAttribute="centerX" id="NQW-Nf-8Kf"/>
+                            <constraint firstAttribute="centerY" secondItem="4TB-Hx-SGp" secondAttribute="centerY" constant="-56" id="o73-vc-lle"/>
                             <constraint firstAttribute="centerX" secondItem="DfS-4x-51h" secondAttribute="centerX" id="yks-rl-FGD"/>
                         </constraints>
                     </view>

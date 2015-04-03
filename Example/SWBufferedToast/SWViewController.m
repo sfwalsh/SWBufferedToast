@@ -11,6 +11,7 @@
 @interface SWViewController ()
 
 @property (nonatomic, strong) SWBufferedToast *plainToast;
+@property (nonatomic, strong) SWBufferedToast *loginToast;
 
 @property (nonatomic, readonly) UIColor *eggshellGreen;
 @property (nonatomic, readonly) UIColor *ectoplasmGreen;
@@ -92,6 +93,22 @@
     return _plainToast;
 }
 
+- (SWBufferedToast *)loginToast
+{
+    if (!_loginToast) {
+        _loginToast = [[SWBufferedToast alloc] initLoginToastWithTitle:@"Login"
+                                                         usernameTitle:@"Username"
+                                                         passwordTitle:@"Password"
+                                                             doneTitle:@"Sign In"
+                                                      backgroundColour:self.ectoplasmGreen
+                                                            toastColor:self.candyCaneRed
+                                                   animationImageNames:nil andDelegate:self
+                                                                onView:self.view];
+    }
+    
+    return _loginToast;
+}
+
 
 #pragma mark - SWBufferedToastDelegate implementation
 - (void)didTapActionButton
@@ -120,6 +137,9 @@
                         andPassword:(NSString *)password
 {
     //Returns the values the user entered for their username and password. You should probably attempt a login at this point.
+    [self.loginToast beginLoading];
+    //Once you have authed with your api you can dismiss the toast by calling
+    //    [self.loginToast dismiss];
 }
 
 - (void)didDismissToastView
@@ -132,6 +152,11 @@
 - (IBAction)exampleButtonTapped:(id)sender
 {
     [self.plainToast appear];
+}
+
+- (IBAction)didTapLoginButton:(id)sender
+{
+    [self.loginToast appear];
 }
 
 @end

@@ -34,6 +34,21 @@
                                     <action selector="exampleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h98-E5-4Qg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9W-er-05Q">
+                                <rect key="frame" x="335" y="592" width="99" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.66666666669999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eVt-oQ-ZIu"/>
+                                    <constraint firstAttribute="width" constant="99" id="fqE-Ny-e1n"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FOK-Bh-9nL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -42,6 +57,8 @@
                             <constraint firstItem="gTy-gA-Rtt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CPm-Ca-vQh"/>
                             <constraint firstAttribute="centerY" secondItem="c4b-Cf-sVt" secondAttribute="centerY" id="Vl1-PL-10h"/>
                             <constraint firstAttribute="centerX" secondItem="c4b-Cf-sVt" secondAttribute="centerX" id="XBj-Me-joK"/>
+                            <constraint firstItem="W9W-er-05Q" firstAttribute="top" secondItem="c4b-Cf-sVt" secondAttribute="bottom" constant="65" id="jsO-Zh-8aM"/>
+                            <constraint firstItem="W9W-er-05Q" firstAttribute="centerX" secondItem="c4b-Cf-sVt" secondAttribute="centerX" id="oDQ-pK-nh4"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gTy-gA-Rtt" secondAttribute="bottom" id="pVF-Es-cBR"/>
                         </constraints>
                     </view>
