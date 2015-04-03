@@ -5,6 +5,23 @@
 [![License](https://img.shields.io/cocoapods/l/SWBufferedToast.svg?style=flat)](http://cocoapods.org/pods/SWBufferedToast)
 [![Platform](https://img.shields.io/cocoapods/p/SWBufferedToast.svg?style=flat)](http://cocoapods.org/pods/SWBufferedToast)
 
+## About
+
+SWBufferedToast is a simple alert-style class for presenting information to the user.
+An SWBufferedToast can be instantiated with one of three types:
+1. Plain Toast
+A simple dismissable alert with a title, description and action button.
+
+2. Notice Toast
+An non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
+
+3. Login Toast
+A modal login window in the style of a toast.
+
+
+All three alert types have a buffering animation that can be turned on and off as necessary. Additionally, you can supply your own images for this buffering animation.
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
