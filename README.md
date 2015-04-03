@@ -9,6 +9,8 @@
 
 SWBufferedToast is a simple alert-style class for presenting information to the user.
 An SWBufferedToast can be instantiated with one of three types:
+
+
 1. Plain Toast
 A simple dismissable alert with a title, description and action button.
 
