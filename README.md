@@ -17,7 +17,7 @@ A simple dismissable alert with a title, description and action button.
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png "Plain Toast")
 
 2. Notice Toast
-An non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
+A non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png "Notice Toast")
 
