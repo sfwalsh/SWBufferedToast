@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SWBufferedToast"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A simple UI class for presenting useful information to the user."
   s.description      = <<-DESC
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/sfwalsh/SWBufferedToast.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/Hapkido_ORourke'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

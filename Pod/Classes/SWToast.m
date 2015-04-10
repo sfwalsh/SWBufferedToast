@@ -288,13 +288,11 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
             [self appearAnimationNotice];
         }
             break;
-        case SWBufferedToastTypeLogin:
-        {
+        case SWBufferedToastTypeLogin:{
             [self appearAnimationLogin];
         }
             break;
-        default:
-        {
+        default: {
             [self appearAnimationDefault];
         }
             break;
@@ -308,8 +306,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
             [self disappearAnimationNotice];
         }
             break;
-        default:
-        {
+        default:{
             [self disappearAnimationDefault];
         }
             break;
@@ -369,7 +366,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
     self.alpha = 0;
     
     [self applyAllConstraints];
-    [self layoutIfNeeded];
+    [self.parentView layoutIfNeeded];
     self.constraintY.constant = 0;
     self.transform = CGAffineTransformMakeScale(0.7, 0.7);
     [UIView animateWithDuration:kAnimationDurationAppear
@@ -386,13 +383,14 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
 - (void)appearAnimationLogin
 {
     [self applyAllConstraints];
+    [self.parentView layoutIfNeeded];
     [self.usernameField becomeFirstResponder];
 }
 
 - (void)appearAnimationDefault
 {
     [self applyAllConstraints];
-    [self layoutIfNeeded];
+    [self.parentView layoutIfNeeded];
     self.constraintY.constant = 0;
     [UIView animateWithDuration:kAnimationDurationAppear
                           delay:0
@@ -400,7 +398,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
           initialSpringVelocity:15.0f
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
-                         [self layoutIfNeeded];
+                         [self.parentView layoutIfNeeded];
                      } completion:nil];
 }
 
@@ -413,7 +411,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
           initialSpringVelocity:15.0f
                         options:0
                      animations:^{
-                         [self layoutIfNeeded];
+                         [self.parentView layoutIfNeeded];
                          self.transform = CGAffineTransformMakeScale(0.4, 0.4);
                          self.alpha = 0;
                      } completion:^(BOOL finished) {
@@ -429,7 +427,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
     self.constraintY.constant = -self.parentView.frame.size.height;
     
     [UIView animateWithDuration:kAnimationDurationDisappear animations:^{
-        [self layoutIfNeeded];
+        [self.parentView layoutIfNeeded];
     } completion:^(BOOL finished) {
         if (finished) {
             [self removeFromSuperview];
@@ -444,7 +442,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
         [SWToastConstraintManager applyBufferMaskConstraintsForImageView:self.bufferImageMask onToast:self];
         [SWToastConstraintManager applyBufferMaskConstraintsForImageView:self.bufferImage onToast:self];
         
-        [self layoutIfNeeded];
+        [self.parentView layoutIfNeeded];
         
         [UIView animateWithDuration:kAnimationDurationAppear animations:^{
             self.bufferImage.alpha = 1.0f;
@@ -495,13 +493,13 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
           initialSpringVelocity:15.0f
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
-                         [self layoutIfNeeded];
+                         [self.parentView layoutIfNeeded];
                      } completion:nil];
 }
 
 - (void)updateLoginConstraintsForUsername
 {
-    [self layoutIfNeeded];
+    [self.parentView layoutIfNeeded];
     self.constraintY.constant = -75;
     [UIView animateWithDuration:kAnimationDurationAppear
                           delay:0
@@ -509,13 +507,13 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
           initialSpringVelocity:15.0f
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
-                         [self layoutIfNeeded];
+                         [self.parentView layoutIfNeeded];
                      } completion:nil];
 }
 
 - (void)updateLoginConstraintsForPassword
 {
-    [self layoutIfNeeded];
+    [self.parentView layoutIfNeeded];
     self.constraintY.constant = -95;
     [UIView animateWithDuration:kAnimationDurationAppear
                           delay:0
@@ -523,7 +521,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
           initialSpringVelocity:15.0f
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
-                         [self layoutIfNeeded];
+                         [self.parentView layoutIfNeeded];
                      } completion:nil];
 }
 

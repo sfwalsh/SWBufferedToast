@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_SWBufferedToast
 #define COCOAPODS_VERSION_MAJOR_SWBufferedToast 0
 #define COCOAPODS_VERSION_MINOR_SWBufferedToast 1
-#define COCOAPODS_VERSION_PATCH_SWBufferedToast 0
+#define COCOAPODS_VERSION_PATCH_SWBufferedToast 2
 
