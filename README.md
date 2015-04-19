@@ -29,6 +29,8 @@ A modal login window in the style of a toast.
 
 All three alert types have a buffering animation that can be turned on and off as necessary. Additionally, you can supply your own images for this buffering animation.
 
+If you wish to use your own animation images for the buffering state please be sure to add them to the "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast" target.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SWBufferedToast"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "A simple UI class for presenting useful information to the user."
   s.description      = <<-DESC
 
@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 
 
                       All three alert types have a buffering animation that can be turned on and off as necessary. Additionally, you can supply your own images for this buffering animation.
+
+                      If you wish to use your own animation images for the buffering state please be sure to add them to the "Pods-SWBufferedToast-SWBufferedToast-SWBufferedToast" target.
 
                        DESC
   s.homepage         = "https://github.com/sfwalsh/SWBufferedToast"

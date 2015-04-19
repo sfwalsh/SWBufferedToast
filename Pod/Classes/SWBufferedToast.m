@@ -98,7 +98,7 @@
         self.toastView = [[SWToast alloc] initNoticeToastWithColour:toastColor
                                                               title:title
                                                            subtitle:subtitle
-                                                animationImageNames:nil
+                                                animationImageNames:animationImageNames
                                                           andParent:self];
         
         [self.toastView addGestureRecognizer:self.panGestureRecognizer];
