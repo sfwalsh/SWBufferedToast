@@ -145,7 +145,7 @@
     } completion:^(BOOL finished) {
         if (finished) {
             [self removeFromSuperview];
-            [self.delegate didDismissToastView];
+            [self.delegate didDismissToastView:self];
         }
     }];
 }
@@ -278,7 +278,7 @@
 #pragma mark - plain toast delegate impl
 - (void)actionButtonTapped
 {
-    [self.delegate didTapActionButton];
+    [self.delegate didTapActionButtonWithToast:self];
 }
 
 
@@ -287,7 +287,8 @@
                           andPassword:(NSString *)password
 {
     [self.delegate didAttemptLoginWithUsername:username
-                                         andPassword:password];
+                                   andPassword:password
+                                     withToast:self];
 }
 
 

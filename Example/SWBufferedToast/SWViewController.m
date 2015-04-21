@@ -111,38 +111,43 @@
 
 
 #pragma mark - SWBufferedToastDelegate implementation
-- (void)didTapActionButton
+- (void)didTapActionButtonWithToast:(SWBufferedToast *)toast
 {
-    [self.plainToast dismiss];
-    
-    /**
-     Display a notice toast type. This toast cannot be dismissed by the user and can either be dismissed when a task
-     is completed (by calling [toast dismiss]) or after a timer has completed.
-     **/
-    
-    SWBufferedToast *noticeToast = [[SWBufferedToast alloc] initNoticeToastWithTitle:@"Get Your Toast"
-                                                                            subtitle:self.jam
-                                                                       timeToDisplay:10.0
-                                                                    backgroundColour:self.jarringBlue
-                                                                          toastColor:self.candyCaneRed
-                                                                 animationImageNames:nil
-                                                                              onView:self.view];
-    [noticeToast appear];
-    
-    //Show the buffering state. You can supply your own images for the animation; if you don't a default animation will be used.
-    [noticeToast beginLoading];
+    if (toast == self.plainToast) {
+        [self.plainToast dismiss];
+        
+        /**
+         Display a notice toast type. This toast cannot be dismissed by the user and can either be dismissed when a task
+         is completed (by calling [toast dismiss]) or after a timer has completed.
+         **/
+        
+        SWBufferedToast *noticeToast = [[SWBufferedToast alloc] initNoticeToastWithTitle:@"Get Your Toast"
+                                                                                subtitle:self.jam
+                                                                           timeToDisplay:10.0
+                                                                        backgroundColour:self.jarringBlue
+                                                                              toastColor:self.candyCaneRed
+                                                                     animationImageNames:nil
+                                                                                  onView:self.view];
+        [noticeToast appear];
+        
+        //Show the buffering state. You can supply your own images for the animation; if you don't a default animation will be used.
+        [noticeToast beginLoading];
+    }
 }
 
 - (void)didAttemptLoginWithUsername:(NSString *)username
                         andPassword:(NSString *)password
+                          withToast:(SWBufferedToast *)toast
 {
-    //Returns the values the user entered for their username and password. You should probably attempt a login at this point.
-    [self.loginToast beginLoading];
-    //Once you have authed with your api you can dismiss the toast by calling
-    //    [self.loginToast dismiss];
+    if (toast == self.loginToast) {
+        //Returns the values the user entered for their username and password. You should probably attempt a login at this point.
+        [self.loginToast beginLoading];
+        //Once you have authed with your api you can dismiss the toast by calling
+        //    [self.loginToast dismiss];
+    }
 }
 
-- (void)didDismissToastView
+- (void)didDismissToastView:(SWBufferedToast *)toast
 {
     //Called when a toast has been dismissed.
 }

@@ -6,17 +6,20 @@
 //  Copyright (c) 2015 Stephen Walsh. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "SWToast.h"
+@class SWBufferedToast;
 
 @protocol SWBufferedToastDelegate <NSObject>
 
-- (void)didTapActionButton;
+- (void)didTapActionButtonWithToast:(SWBufferedToast*)toast;
 - (void)didAttemptLoginWithUsername:(NSString*)username
-                        andPassword:(NSString*)password;
-- (void)didDismissToastView;
+                        andPassword:(NSString*)password
+                        withToast:(SWBufferedToast*)toast;
+- (void)didDismissToastView:(SWBufferedToast*)toast;
 
 @end
+
+#import <UIKit/UIKit.h>
+#import "SWToast.h"
 
 @interface SWBufferedToast : UIView <SWPlainToastDelegate>
 

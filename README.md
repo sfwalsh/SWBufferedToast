@@ -11,17 +11,17 @@ SWBufferedToast is a simple alert-style class for presenting information to the 
 An SWBufferedToast can be instantiated with one of three types:
 
 
-1. Plain Toast
+Plain Toast
 A simple dismissable alert with a title, description and action button.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png "Plain Toast")
 
-2. Notice Toast
+Notice Toast
 A non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png "Notice Toast")
 
-3. Login Toast
+Login Toast
 A modal login window in the style of a toast.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/loginToast.png "Login Toast")
@@ -36,6 +36,8 @@ If you wish to use your own animation images for the buffering state please be s
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+A project with a deployment target of iOS 7.0 or later
 
 ## Installation
 

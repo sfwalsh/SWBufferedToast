@@ -1,18 +1,19 @@
 Pod::Spec.new do |s|
   s.name             = "SWBufferedToast"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "A simple UI class for presenting useful information to the user."
   s.description      = <<-DESC
 
                       SWBufferedToast is a simple alert-style class for presenting information to the user.
                       An SWBufferedToast can be instantiated with one of three types:
-                      1. Plain Toast
+                      
+                      Plain Toast
                       A simple dismissable alert with a title, description and action button.
 
-                      2. Notice Toast
+                      Notice Toast
                       An non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
 
-                      3. Login Toast
+                      Login Toast
                       A modal login window in the style of a toast.
 
 
