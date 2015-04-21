@@ -11,17 +11,17 @@ SWBufferedToast is a simple alert-style class for presenting information to the 
 An SWBufferedToast can be instantiated with one of three types:
 
 
-Plain Toast
+**1. Plain Toast**
 A simple dismissable alert with a title, description and action button.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png "Plain Toast")
 
-Notice Toast
+**2. Notice Toast**
 A non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png "Notice Toast")
 
-Login Toast
+**3. Login Toast**
 A modal login window in the style of a toast.
 
 ![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/loginToast.png "Login Toast")
