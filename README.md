@@ -16,21 +16,21 @@ An SWBufferedToast can be instantiated with one of three types:
 
 A simple dismissable alert with a title, description and action button.
 
-![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png "Plain Toast")
+![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/plainToast.png "Plain Toast" =200x)
 
 **2. Notice Toast**
 
 
 A non-dismissable alert used to notify the user of an ongoing task. This alert cannot be dismissed by the user, but can be dismissed using a timer or by calling toast.dismiss.
 
-![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png "Notice Toast")
+![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/noticeToast.png "Notice Toast" =200x)
 
 **3. Login Toast**
 
 
 A modal login window in the style of a toast.
 
-![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/loginToast.png "Login Toast")
+![Alt text](https://github.com/sfwalsh/SWBufferedToast/blob/master/Screenshots/loginToast.png "Login Toast" =200x)
 
 
 All three alert types have a buffering animation that can be turned on and off as necessary. Additionally, you can supply your own images for this buffering animation.
