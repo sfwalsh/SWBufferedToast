@@ -129,7 +129,8 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
 - (NSBundle *)bundle
 {
     if (!_bundle) {
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:kBundlePath ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *bundlePath = [bundle pathForResource:kBundlePath ofType:@"bundle"];
         _bundle = [NSBundle bundleWithPath:bundlePath];
     }
     return _bundle;
